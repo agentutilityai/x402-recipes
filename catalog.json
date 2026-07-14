@@ -455,6 +455,13 @@
     "url": "https://x402.agentutility.ai/commit-message-from-diff"
   },
   {
+    "slug": "commodity-brief",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Market brief for a commodity: recency-scoped web search headlines on price/supply/demand plus a structured research brief with overview, key facts, and recent news with source citations, in one call.",
+    "url": "https://x402.agentutility.ai/commodity-brief"
+  },
+  {
     "slug": "company-dossier",
     "price": "0.05",
     "category": "uncategorized",
@@ -581,6 +588,13 @@
     "url": "https://x402.agentutility.ai/country-info"
   },
   {
+    "slug": "country-risk-monitor",
+    "price": "0.08",
+    "category": "uncategorized",
+    "description": "Re-runnable country monitor: recency-scoped web search headlines, any live Polymarket prediction markets referencing the country (data-only, no trading), and a structured research brief, in one call.",
+    "url": "https://x402.agentutility.ai/country-risk-monitor"
+  },
+  {
     "slug": "course-study-kit",
     "price": "0.05",
     "category": "uncategorized",
@@ -679,6 +693,20 @@
     "url": "https://x402.agentutility.ai/crypto-news"
   },
   {
+    "slug": "crypto-news-brief",
+    "price": "0.03",
+    "category": "uncategorized",
+    "description": "Daily crypto news digest for a topic: today's headlines plus a structured research brief with overview, key facts, and recent news with source citations, in one call.",
+    "url": "https://x402.agentutility.ai/crypto-news-brief"
+  },
+  {
+    "slug": "crypto-signal-scan",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Structured, informational signal brief for a token or crypto topic: X/Twitter sentiment, recent web coverage, and (when a fiat quote currency is supplied) a current exchange-rate reference, in one call.",
+    "url": "https://x402.agentutility.ai/crypto-signal-scan"
+  },
+  {
     "slug": "crypto-tx-explainer",
     "price": "0.04",
     "category": "uncategorized",
@@ -712,6 +740,13 @@
     "category": "ai",
     "description": "Looks up a CVE and returns its canonical NIST NVD record: description, CVSS v3.1 and v2 vectors plus numeric scores, severity bucket, CWE class, affected CPE list, NVD references, and a public-exploit-known boolean with reference URLs.",
     "url": "https://x402.agentutility.ai/cve-lookup"
+  },
+  {
+    "slug": "cyber-exposure-brief",
+    "price": "0.08",
+    "category": "uncategorized",
+    "description": "External exposure summary for a domain: DNS records, the hosting network/ASN behind the resolved IP, TLS certificate posture, and a web search for public breach/exposure mentions, in one call.",
+    "url": "https://x402.agentutility.ai/cyber-exposure-brief"
   },
   {
     "slug": "dao-proposal-monitor",
@@ -1071,6 +1106,13 @@
     "url": "https://x402.agentutility.ai/escalation-brief"
   },
   {
+    "slug": "esg-company-scan",
+    "price": "0.08",
+    "category": "uncategorized",
+    "description": "Summary of a company's publicly reported ESG posture: a web search scoped to sustainability/emissions/labor/governance coverage plus a structured research brief with overview, key facts, and recent news with source citations, in one call.",
+    "url": "https://x402.agentutility.ai/esg-company-scan"
+  },
+  {
     "slug": "eth-logs",
     "price": "0.01",
     "category": "uncategorized",
@@ -1169,6 +1211,13 @@
     "url": "https://x402.agentutility.ai/funding-rates"
   },
   {
+    "slug": "game-preview-brief",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Neutral pregame brief for a matchup: recent results and upcoming schedule for the named teams from a major-league schedule feed, plus recent news/X coverage, in one call.",
+    "url": "https://x402.agentutility.ai/game-preview-brief"
+  },
+  {
     "slug": "gas-now-base",
     "price": "0.02",
     "category": "utilities",
@@ -1202,6 +1251,13 @@
     "category": "uncategorized",
     "description": "Ranked Google organic results for any query — title, URL, snippet, domain, and an optional recency filter, via Decodo Google Search.",
     "url": "https://x402.agentutility.ai/google-search"
+  },
+  {
+    "slug": "grant-finder",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Structured grant and funding-opportunity finder for a field and region: live federal opportunities from grants.gov's index plus a cited, synthesized web answer covering broader, international, or private funding grants.gov doesn't index, in one call.",
+    "url": "https://x402.agentutility.ai/grant-finder"
   },
   {
     "slug": "grant-lookup",
@@ -1582,11 +1638,25 @@
     "url": "https://x402.agentutility.ai/lp-lock-check"
   },
   {
+    "slug": "macro-snapshot",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Daily macro monitor: major-pair FX rates against USD, a recency-scoped web search for macro headlines (optionally scoped to a region), and a structured research brief on the macro backdrop, in one call.",
+    "url": "https://x402.agentutility.ai/macro-snapshot"
+  },
+  {
     "slug": "magic-item-lookup",
     "price": "0.003",
     "category": "uncategorized",
     "description": "Looks up a D&D 5e magic item by name from the SRD.",
     "url": "https://x402.agentutility.ai/magic-item-lookup"
+  },
+  {
+    "slug": "market-mindshare-monitor",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Re-runnable mindshare monitor for a topic: cross-platform social-mindshare (X, news, Hacker News), any live Polymarket prediction markets referencing the topic, and a general web search pass for recent coverage, in one call.",
+    "url": "https://x402.agentutility.ai/market-mindshare-monitor"
   },
   {
     "slug": "market-rates-pack",
@@ -1650,6 +1720,13 @@
     "category": "uncategorized",
     "description": "Scores how similar two values are on a 0-100 scale for fuzzy matching and dedup confidence.",
     "url": "https://x402.agentutility.ai/match-score"
+  },
+  {
+    "slug": "materials-price-check",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Supply/materials price check: shopping-intent retail listings with detected prices, a web search for bulk/wholesale pricing context, and (when a non-USD currency is requested) an fx reference rate, in one call.",
+    "url": "https://x402.agentutility.ai/materials-price-check"
   },
   {
     "slug": "mcp-server-safety-report",
@@ -1888,6 +1965,13 @@
     "category": "utilities",
     "description": "Measures password strength with a zxcvbn-style score and optional HIBP breach lookup.",
     "url": "https://x402.agentutility.ai/password-strength"
+  },
+  {
+    "slug": "patent-landscape-brief",
+    "price": "0.08",
+    "category": "uncategorized",
+    "description": "Approximate patent/prior-art landscape for a topic, built from published technical prior art rather than a patent-office filing search: arXiv full-text search results, a web search scoped to filings and patent news, and a research brief tying it together, in one call.",
+    "url": "https://x402.agentutility.ai/patent-landscape-brief"
   },
   {
     "slug": "patent-search",
@@ -2266,6 +2350,13 @@
     "category": "uncategorized",
     "description": "Builds a structured research brief on a company, person, product, or topic as fixed-shape JSON: overview, key_facts, recent_news (with date hints), all with source-index citations.",
     "url": "https://x402.agentutility.ai/research-brief"
+  },
+  {
+    "slug": "research-radar",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Re-runnable topic monitor: the latest arXiv papers sorted by most-recently-updated, recent (week-scoped) web coverage, and a structured research brief, in one call.",
+    "url": "https://x402.agentutility.ai/research-radar"
   },
   {
     "slug": "research-topic-scan",
@@ -2686,6 +2777,13 @@
     "category": "utilities",
     "description": "Stablecoin peg monitor.",
     "url": "https://x402.agentutility.ai/stablecoin-peg"
+  },
+  {
+    "slug": "startup-comparables",
+    "price": "0.08",
+    "category": "uncategorized",
+    "description": "Structured comparables snapshot for a company/sector pair: a sector-scoped web search surfacing candidate peers plus a research brief on the company itself (overview, key facts, sources), in one call.",
+    "url": "https://x402.agentutility.ai/startup-comparables"
   },
   {
     "slug": "startup-launch-brief",
