@@ -1,0 +1,34 @@
+name: content-boundary-audit
+
+# Fails the build if anything that belongs only in the private source repo
+# leaks into this public repo. This repo must contain ONLY usage examples and
+# docs for calling the public endpoints — never handler source, deploy/loop
+# scripts, dashboards, keys, or internal worker hosts.
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan for private-only content
+        run: |
+          set -euo pipefail
+          # Secret-shaped strings and internal infrastructure that must never
+          # appear here. The buyer's own X402_PRIVATE_KEY placeholder and the
+          # public Base USDC contract are allowed (they are usage docs).
+          patterns='dash_[a-z0-9]{16}|\.workers\.dev|bankr-sync|cdp-deploy|traffic-bot|deploy-and-log|loops\.env|SOLANA_PAYER_PRIVATE_KEY|BOT_WALLET_PK|DASHBOARD_KEY|VISION\.md|MARKET_STRATEGY|-----BEGIN'
+          if grep -rInE "$patterns" . --exclude-dir=.git --exclude=audit.yml; then
+            echo "::error::private-only content detected in a public repo — see matches above"
+            exit 1
+          fi
+          # No handler source or internal directories should exist here.
+          for bad in x402 scripts dashboard bankr-sync cdp-deploy packages; do
+            if [ -e "$bad" ]; then
+              echo "::error::forbidden path '$bad' present in public repo"
+              exit 1
+            fi
+          done
+          echo "content boundary clean"
