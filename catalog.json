@@ -49,6 +49,13 @@
     "url": "https://x402.agentutility.ai/agent-card-resolve"
   },
   {
+    "slug": "agent-input-guard",
+    "price": "0.04",
+    "category": "uncategorized",
+    "description": "One guardrail call an agent makes before trusting untrusted inbound text — a scraped webpage, an email, a tool result, or a user message.",
+    "url": "https://x402.agentutility.ai/agent-input-guard"
+  },
+  {
     "slug": "agent-prelaunch-audit",
     "price": "0.08",
     "category": "uncategorized",
@@ -75,6 +82,13 @@
     "category": "ai",
     "description": "Detect AI-generated writing with a calibrated probability score.",
     "url": "https://x402.agentutility.ai/ai-content-detector"
+  },
+  {
+    "slug": "ai-image-detector",
+    "price": "0.02",
+    "category": "uncategorized",
+    "description": "AI-generated image detector: send an image URL and get back a calibrated probability that the image is AI-generated or synthetic, plus the vision signals behind the score — anatomical artifacts (hands, teeth, eyes), garbled pseudo-text, over-smooth texture, lighting/shadow inconsistency, background incoherence, and an over-stylized 'AI look'.",
+    "url": "https://x402.agentutility.ai/ai-image-detector"
   },
   {
     "slug": "ai-to-human-text",
@@ -537,6 +551,13 @@
     "category": "uncategorized",
     "description": "Normalizes a contact record in one call, generating stable match keys for email, name, phone, and address plus parsed US address components.",
     "url": "https://x402.agentutility.ai/contact-normalize-pack"
+  },
+  {
+    "slug": "content-authenticity-report",
+    "price": "0.06",
+    "category": "uncategorized",
+    "description": "Content authenticity report: send a URL (or raw text) and find out whether a page is AI-generated slop before your agent cites, summarizes, or acts on it.",
+    "url": "https://x402.agentutility.ai/content-authenticity-report"
   },
   {
     "slug": "content-quality-pack",
@@ -2170,6 +2191,13 @@
     "url": "https://x402.agentutility.ai/prompt-compress"
   },
   {
+    "slug": "prompt-injection-detect",
+    "price": "0.02",
+    "category": "uncategorized",
+    "description": "Prompt injection detector for untrusted inbound text — a webpage, an email, a tool result, or a message an agent is about to read.",
+    "url": "https://x402.agentutility.ai/prompt-injection-detect"
+  },
+  {
     "slug": "prompt-injection-surface",
     "price": "0.03",
     "category": "ai",
@@ -3568,6 +3596,13 @@
     "category": "uncategorized",
     "description": "Score whether an X/Twitter handle is a real person or a bot/impersonator before an agent trusts, follows, or replies to it.",
     "url": "https://x402.agentutility.ai/x-account-authenticity"
+  },
+  {
+    "slug": "x-account-slop-check",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Account slop-check API: send an X/Twitter handle and get back how much of that account's recent output reads as AI-generated.",
+    "url": "https://x402.agentutility.ai/x-account-slop-check"
   },
   {
     "slug": "x-handle-availability",
