@@ -3487,9 +3487,9 @@
   },
   {
     "slug": "web-search",
-    "price": "0.01",
+    "price": "0.006",
     "category": "uncategorized",
-    "description": "Ranked Google results for a query — title, URL, snippet, domain, and a recency filter, via Decodo Google Search.",
+    "description": "Ranked Google results for a query: title, URL, snippet, domain, and a recency filter, via Decodo Google Search.",
     "url": "https://x402.agentutility.ai/web-search"
   },
   {

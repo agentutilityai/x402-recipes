@@ -513,7 +513,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`weather-forecast`](https://x402.agentutility.ai/weather-forecast) | $0.002 | Returns current conditions, a 1-7 day daily forecast, and an optional hourly forecast for any latitude/longitude. |
 | [`weather-gen`](https://x402.agentutility.ai/weather-gen) | $0.005 | Rolls a day's weather for a fantasy RPG campaign by climate (temperate, arid, cold, tropical), with conditions and wind. |
 | [`weather-localize-pack`](https://x402.agentutility.ai/weather-localize-pack) | $0.03 | Gets local weather and translates the conditions brief in one call. |
-| [`web-search`](https://x402.agentutility.ai/web-search) | $0.01 | Ranked Google results for a query — title, URL, snippet, domain, and a recency filter, via Decodo Google Search. |
+| [`web-search`](https://x402.agentutility.ai/web-search) | $0.006 | Ranked Google results for a query: title, URL, snippet, domain, and a recency filter, via Decodo Google Search. |
 | [`webpage-change-report`](https://x402.agentutility.ai/webpage-change-report) | $0.04 | Detects changes to a webpage and explains them in plain language, in one call. |
 | [`website-trust-report`](https://x402.agentutility.ai/website-trust-report) | $0.04 | Gathers site legitimacy signals for a URL in one call: TLS, domain risk, lookalike detection, metadata, and tech stack. |
 | [`wiki-brief`](https://x402.agentutility.ai/wiki-brief) | $0.03 | Looks up a topic on Wikipedia and digests it in one call: canonical article, bullet brief, and named entities. |
