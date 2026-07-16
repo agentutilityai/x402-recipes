@@ -135,6 +135,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`astro-times`](https://x402.agentutility.ai/astro-times) | $0.005 | Sunrise sunset times. |
 | [`audio-brief`](https://x402.agentutility.ai/audio-brief) | $0.07 | Transcribes and digests any audio URL in one call: transcript, summary, and sentiment. |
 | [`audio-transcribe`](https://x402.agentutility.ai/audio-transcribe) | $0.01 | Transcribes audio to text with whisper-large-v3. |
+| [`authentic-sentiment`](https://x402.agentutility.ai/authentic-sentiment) | $0.06 | Authentic sentiment API: send a topic, brand, handle, or phrase and get back sentiment from real humans, not bots or AI. |
 | [`b2b-lead-enrich`](https://x402.agentutility.ai/b2b-lead-enrich) | $0.01 | Enriches B2B leads from caller-supplied email/name/domain/company into a public-data profile with inferred name, company, domain, MX records, and homepage context. |
 | [`background-gen`](https://x402.agentutility.ai/background-gen) | $0.005 | Character background generator API / personality trait, ideal, bond, flaw generator for tabletop RPGs. |
 | [`basename-resolve`](https://x402.agentutility.ai/basename-resolve) | $0.005 | Resolves Coinbase Basenames (.base.eth) to Ethereum addresses and back, reading the Base mainnet L2 Resolver on-chain (no gas, no wallet). |
@@ -416,6 +417,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`sitemap-fetch`](https://x402.agentutility.ai/sitemap-fetch) | $0.005 | Fetches and parses a site's sitemap.xml into a full website URL inventory. |
 | [`sku-normalize`](https://x402.agentutility.ai/sku-normalize) | $0.01 | Turns a messy marketplace product title or SKU string into structured attributes for catalog matching: brand, model, variant, capacity, color, and a canonical key you can join against other catalogs. |
 | [`sla-extract`](https://x402.agentutility.ai/sla-extract) | $0.015 | Pulls the actual service-level terms out of a contract, vendor agreement, or support policy so you don't have to hunt through pages of text for them. |
+| [`slop-filtered-brief`](https://x402.agentutility.ai/slop-filtered-brief) | $0.06 | Research a topic without the AI-generated slop. |
 | [`social-handle-check`](https://x402.agentutility.ai/social-handle-check) | $0.005 | Checks whether a proposed X/Twitter handle is claimed and returns public account metrics when it exists. |
 | [`social-image-pack`](https://x402.agentutility.ai/social-image-pack) | $0.04 | Creates a social-ready visual package in one call: generated image, caption, and keyword ideas. |
 | [`social-mindshare`](https://x402.agentutility.ai/social-mindshare) | $0.05 | Social mindshare API: send a term and get back how much space it occupies across X/Twitter, news, and Hacker News in one call, with an optional up-to-three-term comparison and a share-of-voice split. |

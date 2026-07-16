@@ -203,6 +203,13 @@
     "url": "https://x402.agentutility.ai/audio-transcribe"
   },
   {
+    "slug": "authentic-sentiment",
+    "price": "0.06",
+    "category": "uncategorized",
+    "description": "Authentic sentiment API: send a topic, brand, handle, or phrase and get back sentiment from real humans, not bots or AI.",
+    "url": "https://x402.agentutility.ai/authentic-sentiment"
+  },
+  {
     "slug": "b2b-lead-enrich",
     "price": "0.01",
     "category": "uncategorized",
@@ -2651,6 +2658,13 @@
     "category": "uncategorized",
     "description": "Pulls the actual service-level terms out of a contract, vendor agreement, or support policy so you don't have to hunt through pages of text for them.",
     "url": "https://x402.agentutility.ai/sla-extract"
+  },
+  {
+    "slug": "slop-filtered-brief",
+    "price": "0.06",
+    "category": "uncategorized",
+    "description": "Research a topic without the AI-generated slop.",
+    "url": "https://x402.agentutility.ai/slop-filtered-brief"
   },
   {
     "slug": "slugify",
