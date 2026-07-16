@@ -1267,13 +1267,6 @@
     "url": "https://x402.agentutility.ai/github-stars-history"
   },
   {
-    "slug": "google-search",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Ranked Google organic results for any query — title, URL, snippet, domain, and an optional recency filter, via Decodo Google Search.",
-    "url": "https://x402.agentutility.ai/google-search"
-  },
-  {
     "slug": "grant-finder",
     "price": "0.05",
     "category": "uncategorized",
