@@ -282,6 +282,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`image-to-video`](https://x402.agentutility.ai/image-to-video) | $0.50 | Animates a still image into video via fal.ai Bytedance Seedance. |
 | [`image-translate`](https://x402.agentutility.ai/image-translate) | $0.02 | Image translator. |
 | [`image-upscale`](https://x402.agentutility.ai/image-upscale) | $0.02 | Upscales an image 2x or 4x via Venice's image/upscale endpoint (default model: venice-sd35). |
+| [`inbound-message-firewall`](https://x402.agentutility.ai/inbound-message-firewall) | $0.06 | One call an agent makes before trusting an inbound message that also carries a claimed source link: an email with a link, a DM citing a URL, a tool result referencing a page. |
 | [`initiative-roll`](https://x402.agentutility.ai/initiative-roll) | $0.005 | Initiative tracker / initiative order roller API for tabletop combat. |
 | [`insider-trading`](https://x402.agentutility.ai/insider-trading) | $0.01 | Insider trading feed. |
 | [`inventory-finance-score`](https://x402.agentutility.ai/inventory-finance-score) | $0.01 | Scores the risk of an inventory financing facility, returning a weighted score and grade. |
@@ -428,6 +429,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`solana-token-watchlist`](https://x402.agentutility.ai/solana-token-watchlist) | $0.005 | Watchlist of recently profiled and actively boosted Solana tokens with DEX Screener market data. |
 | [`solana-trending-tokens`](https://x402.agentutility.ai/solana-trending-tokens) | $0.005 | Ranks trending, actively boosted Solana tokens by liquidity, volume, 24h txns, boost amount, and price movement. |
 | [`sound-effect-generate`](https://x402.agentutility.ai/sound-effect-generate) | $0.01 | Generates sound effects from a text prompt via Venice using elevenlabs-sound-effects-v2. |
+| [`source-trust-envelope`](https://x402.agentutility.ai/source-trust-envelope) | $0.07 | Send a URL, get one verdict on whether your agent should trust and cite it. |
 | [`spell-lookup`](https://x402.agentutility.ai/spell-lookup) | $0.003 | Looks up a D&D 5e spell by name and returns full SRD details. |
 | [`spell-slots`](https://x402.agentutility.ai/spell-slots) | $0.005 | Looks up D&D 5e spell slots by class and level. |
 | [`sports-schedule`](https://x402.agentutility.ai/sports-schedule) | $0.01 | Returns upcoming games and recent results for major sports leagues: MLB, NBA, NHL, NFL, WNBA, MLS, EPL, La Liga, Bundesliga, and Serie A. |

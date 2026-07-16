@@ -1477,6 +1477,13 @@
     "url": "https://x402.agentutility.ai/image-upscale"
   },
   {
+    "slug": "inbound-message-firewall",
+    "price": "0.06",
+    "category": "uncategorized",
+    "description": "One call an agent makes before trusting an inbound message that also carries a claimed source link: an email with a link, a DM citing a URL, a tool result referencing a page.",
+    "url": "https://x402.agentutility.ai/inbound-message-firewall"
+  },
+  {
     "slug": "initiative-roll",
     "price": "0.005",
     "category": "uncategorized",
@@ -2742,6 +2749,13 @@
     "category": "uncategorized",
     "description": "Generates sound effects from a text prompt via Venice using elevenlabs-sound-effects-v2.",
     "url": "https://x402.agentutility.ai/sound-effect-generate"
+  },
+  {
+    "slug": "source-trust-envelope",
+    "price": "0.07",
+    "category": "uncategorized",
+    "description": "Send a URL, get one verdict on whether your agent should trust and cite it.",
+    "url": "https://x402.agentutility.ai/source-trust-envelope"
   },
   {
     "slug": "speaker-diarize",
