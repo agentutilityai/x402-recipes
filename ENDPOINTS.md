@@ -135,7 +135,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`astro-times`](https://x402.agentutility.ai/astro-times) | $0.005 | Sunrise sunset times. |
 | [`audio-brief`](https://x402.agentutility.ai/audio-brief) | $0.07 | Transcribes and digests any audio URL in one call: transcript, summary, and sentiment. |
 | [`audio-transcribe`](https://x402.agentutility.ai/audio-transcribe) | $0.01 | Transcribes audio to text with whisper-large-v3. |
-| [`authentic-sentiment`](https://x402.agentutility.ai/authentic-sentiment) | $0.06 | Authentic sentiment API: send a topic, brand, handle, or phrase and get back sentiment from real humans, not bots or AI. |
+| [`authentic-sentiment`](https://x402.agentutility.ai/authentic-sentiment) | $0.06 | Authentic sentiment API: send a topic, brand, handle, or phrase and get back sentiment from real humans, not bots or AI astroturf. |
 | [`b2b-lead-enrich`](https://x402.agentutility.ai/b2b-lead-enrich) | $0.01 | Enriches B2B leads from caller-supplied email/name/domain/company into a public-data profile with inferred name, company, domain, MX records, and homepage context. |
 | [`background-gen`](https://x402.agentutility.ai/background-gen) | $0.005 | Character background generator API / personality trait, ideal, bond, flaw generator for tabletop RPGs. |
 | [`basename-resolve`](https://x402.agentutility.ai/basename-resolve) | $0.005 | Resolves Coinbase Basenames (.base.eth) to Ethereum addresses and back, reading the Base mainnet L2 Resolver on-chain (no gas, no wallet). |
