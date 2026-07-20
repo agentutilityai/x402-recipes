@@ -94,7 +94,7 @@
     "slug": "ai-to-human-text",
     "price": "0.01",
     "category": "ai",
-    "description": "AI text humanizer / GPT detector bypass.",
+    "description": "Rewrite AI-generated text so it reads like a person wrote it.",
     "url": "https://x402.agentutility.ai/ai-to-human-text"
   },
   {
@@ -157,14 +157,14 @@
     "slug": "arxiv-search",
     "price": "0.03",
     "category": "uncategorized",
-    "description": "arXiv full-text search.",
+    "description": "Search arXiv's full paper catalog by query, author, category, or a specific id-list and get back structured results instead of scraping HTML.",
     "url": "https://x402.agentutility.ai/arxiv-search"
   },
   {
     "slug": "arxiv-summarize",
     "price": "0.04",
     "category": "ai",
-    "description": "arXiv paper summarizer / research-paper TLDR.",
+    "description": "Turn an arXiv paper into a structured research summary without reading the PDF.",
     "url": "https://x402.agentutility.ai/arxiv-summarize"
   },
   {
@@ -192,7 +192,7 @@
     "slug": "audio-loudnorm",
     "price": "0.02",
     "category": "media",
-    "description": "Audio loudness normalizer (EBU R128 LUFS).",
+    "description": "Normalize audio loudness to a target LUFS level for podcasts, YouTube, and Spotify delivery.",
     "url": "https://x402.agentutility.ai/audio-loudnorm"
   },
   {
@@ -255,7 +255,7 @@
     "slug": "bls-occupational-stats",
     "price": "0.02",
     "category": "uncategorized",
-    "description": "BLS Public Data API — wages, employment levels, growth by series ID.",
+    "description": "Pull wage, employment level, and growth data straight from the Bureau of Labor Statistics Public Data API by series ID, covering formats like OEWS occupational wages (OEUM...), local-area unemployment (LAU...), and CES employment series.",
     "url": "https://x402.agentutility.ai/bls-occupational-stats"
   },
   {
@@ -437,14 +437,14 @@
     "slug": "classify",
     "price": "0.02",
     "category": "ai",
-    "description": "Zero-shot text classifier.",
+    "description": "Sort text into categories you define on the spot, no training run required.",
     "url": "https://x402.agentutility.ai/classify"
   },
   {
     "slug": "classify-text",
     "price": "0.02",
     "category": "ai",
-    "description": "Classifies text into caller-supplied labels (2-25), with multi-label mode.",
+    "description": "Sorts a piece of text into categories you define on the fly, no training or fixed label set required.",
     "url": "https://x402.agentutility.ai/classify-text"
   },
   {
@@ -528,7 +528,7 @@
     "slug": "compress-pdf",
     "price": "0.005",
     "category": "media",
-    "description": "PDF compressor / PDF size reducer.",
+    "description": "Shrink a PDF's file size without manually tuning compression settings.",
     "url": "https://x402.agentutility.ai/compress-pdf"
   },
   {
@@ -738,7 +738,7 @@
     "slug": "crypto-tx-explainer",
     "price": "0.04",
     "category": "uncategorized",
-    "description": "Ethereum/Base/Arbitrum/Optimism/Polygon transaction explainer.",
+    "description": "Explain what actually happened in an on-chain transaction on Ethereum, Base, Arbitrum, Optimism, or Polygon by sending its tx_hash.",
     "url": "https://x402.agentutility.ai/crypto-tx-explainer"
   },
   {
@@ -857,7 +857,7 @@
     "slug": "detect-language",
     "price": "0.005",
     "category": "ai",
-    "description": "Language detector / language identification.",
+    "description": "Identifies what language a piece of text is written in and how confident the call is, returning an ISO 639-1 code, the full language name, and a 0-1 confidence score.",
     "url": "https://x402.agentutility.ai/detect-language"
   },
   {
@@ -1011,7 +1011,7 @@
     "slug": "earnings-call-transcribe",
     "price": "0.03",
     "category": "uncategorized",
-    "description": "Earnings call transcriber.",
+    "description": "Transcribes a company earnings call from its publicly posted investor-relations webcast or replay audio URL, then optionally turns that transcript into a structured summary.",
     "url": "https://x402.agentutility.ai/earnings-call-transcribe"
   },
   {
@@ -1179,14 +1179,14 @@
     "slug": "extract",
     "price": "0.02",
     "category": "ai",
-    "description": "Named entity extractor / NER.",
+    "description": "Pull structured entities out of raw text instead of hand-parsing it yourself.",
     "url": "https://x402.agentutility.ai/extract"
   },
   {
     "slug": "extract-entities",
     "price": "0.005",
     "category": "ai",
-    "description": "Named entity recognition (NER) / entity extractor.",
+    "description": "Pulls structured entities out of free text: people, organizations, locations, dates, email addresses, URLs, phone numbers, and monetary amounts, each returned verbatim as it appears in the source so you can locate it again.",
     "url": "https://x402.agentutility.ai/extract-entities"
   },
   {
@@ -1263,7 +1263,7 @@
     "slug": "github-repo-health",
     "price": "0.03",
     "category": "ai",
-    "description": "GitHub repo health score / open-source maintainability checker. 0-100 score + grade (abandoned/stale/okay/healthy/thriving).",
+    "description": "Score how healthy and maintained an open-source GitHub repo is.",
     "url": "https://x402.agentutility.ai/github-repo-health"
   },
   {
@@ -1340,14 +1340,14 @@
     "slug": "html-to-pdf",
     "price": "0.08",
     "category": "media",
-    "description": "Converts a URL to PDF with CloudConvert capture-website; renders JS.",
+    "description": "Render a live webpage as a PDF document.",
     "url": "https://x402.agentutility.ai/html-to-pdf"
   },
   {
     "slug": "humanize",
     "price": "0.01",
     "category": "ai",
-    "description": "AI text humanizer / GPT detector bypass.",
+    "description": "Rewrite AI-sounding text so it reads like a person wrote it.",
     "url": "https://x402.agentutility.ai/humanize"
   },
   {
@@ -1389,7 +1389,7 @@
     "slug": "image-convert",
     "price": "0.01",
     "category": "media",
-    "description": "Universal image format converter (PNG, JPG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC, HEIF, PSD, SVG).",
+    "description": "Convert an image from one format to another.",
     "url": "https://x402.agentutility.ai/image-convert"
   },
   {
@@ -1403,7 +1403,7 @@
     "slug": "image-expand",
     "price": "0.15",
     "category": "ai",
-    "description": "AI image outpainting / image expansion.",
+    "description": "Extends a source photo onto a larger canvas, generating realistic new background and content beyond its original edges instead of just stretching or cropping it.",
     "url": "https://x402.agentutility.ai/image-expand"
   },
   {
@@ -1921,7 +1921,7 @@
     "slug": "nft-floor",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Gets an NFT collection's floor price and recent sales via Reservoir.",
+    "description": "Returns an NFT collection's floor price and market stats from CoinGecko.",
     "url": "https://x402.agentutility.ai/nft-floor"
   },
   {
@@ -1949,7 +1949,7 @@
     "slug": "office-to-pdf",
     "price": "0.05",
     "category": "media",
-    "description": "Office to PDF converter — DOCX/DOC, XLSX/XLS, PPTX/PPT, ODT/ODS/ODP, RTF, TXT, CSV, EPUB, MD, HTML, Apple Pages/Numbers/Keynote to PDF.",
+    "description": "Converts office documents and other file formats into PDF from a URL, no upload step required.",
     "url": "https://x402.agentutility.ai/office-to-pdf"
   },
   {
@@ -2019,21 +2019,21 @@
     "slug": "pdf-merge",
     "price": "0.01",
     "category": "media",
-    "description": "Merges 2-50 PDFs from URLs into a single PDF, preserving bookmarks.",
+    "description": "Joins multiple PDF files, hosted at URLs, into a single ordered document, so you don't have to merge them by hand in a desktop PDF editor.",
     "url": "https://x402.agentutility.ai/pdf-merge"
   },
   {
     "slug": "pdf-split",
     "price": "0.04",
     "category": "media",
-    "description": "PDF splitter / PDF page extractor.",
+    "description": "Split a PDF into multiple files by page range or one file per page.",
     "url": "https://x402.agentutility.ai/pdf-split"
   },
   {
     "slug": "pdf-to-jpg",
     "price": "0.10",
     "category": "media",
-    "description": "Converts a PDF to JPG, PNG, or WEBP images, rendering every page at configurable DPI (36-600) and returning one image URL per page.",
+    "description": "Convert a PDF into page images for previews, thumbnails, or archiving.",
     "url": "https://x402.agentutility.ai/pdf-to-jpg"
   },
   {
@@ -2047,7 +2047,7 @@
     "slug": "pdf2md",
     "price": "0.20",
     "category": "utilities",
-    "description": "PDF to Markdown converter.",
+    "description": "Convert a hosted PDF into clean Markdown, HTML, or structured JSON by sending its pdf_url.",
     "url": "https://x402.agentutility.ai/pdf2md"
   },
   {
@@ -2180,7 +2180,7 @@
     "slug": "production-readiness-score",
     "price": "0.10",
     "category": "security",
-    "description": "Scores production readiness for a repo in one call, aggregating the Prooflayer cluster.",
+    "description": "Composite: one call runs secrets-exposure-check, deploy-config-risk, db-migration-risk, dep-risk-summary, and prompt-injection-surface in parallel and rolls the results into one production-readiness verdict for a repo.",
     "url": "https://x402.agentutility.ai/production-readiness-score"
   },
   {
@@ -2467,7 +2467,7 @@
     "slug": "rss-from-anything",
     "price": "0.04",
     "category": "utilities",
-    "description": "RSS feed generator / HTML to RSS converter.",
+    "description": "Turn any webpage into an RSS feed, even sites that never published one.",
     "url": "https://x402.agentutility.ai/rss-from-anything"
   },
   {
@@ -2488,7 +2488,7 @@
     "slug": "safe-tx-decode",
     "price": "0.003",
     "category": "uncategorized",
-    "description": "Gnosis Safe execTransaction decoder.",
+    "description": "Decodes a Gnosis Safe multisig transaction into its actual on-chain instructions: target contract, ETH value, calldata, call vs delegatecall operation, gas parameters, and signer count.",
     "url": "https://x402.agentutility.ai/safe-tx-decode"
   },
   {
@@ -2551,7 +2551,7 @@
     "slug": "screenshot",
     "price": "0.04",
     "category": "media",
-    "description": "Website screenshot / URL to PNG/JPG.",
+    "description": "Turn any public URL into a PNG or JPG image on demand.",
     "url": "https://x402.agentutility.ai/screenshot"
   },
   {
@@ -2572,7 +2572,7 @@
     "slug": "search-web",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Ranked Google results with snippets and domains from Decodo Google Search.",
+    "description": "Run a Google web search and get ranked results back: titles, snippets, and domains, with no LLM summary attached.",
     "url": "https://x402.agentutility.ai/search-web"
   },
   {
@@ -2600,7 +2600,7 @@
     "slug": "sentiment",
     "price": "0.01",
     "category": "ai",
-    "description": "Sentiment + emotion analyzer.",
+    "description": "Score how positive, negative, or mixed a piece of text reads, down to the emotion level.",
     "url": "https://x402.agentutility.ai/sentiment"
   },
   {
@@ -2621,7 +2621,7 @@
     "slug": "serp-search",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Ranked Google search results with title, URL, snippet, and domain from Decodo Google Search.",
+    "description": "Pull ranked Google search results, title, URL, snippet, and domain, for any query.",
     "url": "https://x402.agentutility.ai/serp-search"
   },
   {
@@ -2691,7 +2691,7 @@
     "slug": "social-image-pack",
     "price": "0.04",
     "category": "uncategorized",
-    "description": "Creates a social-ready visual package in one call: generated image, caption, and keyword ideas.",
+    "description": "Build a social-ready creative package, image, caption, and keyword ideas, in one paid call instead of three.",
     "url": "https://x402.agentutility.ai/social-image-pack"
   },
   {
@@ -2761,7 +2761,7 @@
     "slug": "speaker-diarize",
     "price": "0.10",
     "category": "ai",
-    "description": "Speaker diarization / who-said-what transcription.",
+    "description": "Transcribe audio or video and label who said what.",
     "url": "https://x402.agentutility.ai/speaker-diarize"
   },
   {
@@ -2796,7 +2796,7 @@
     "slug": "sql-query-review",
     "price": "0.04",
     "category": "uncategorized",
-    "description": "Generates SQL and reviews it in one call.",
+    "description": "Turn a plain-English request into SQL and get a review of it before you run it.",
     "url": "https://x402.agentutility.ai/sql-query-review"
   },
   {
@@ -2894,21 +2894,21 @@
     "slug": "subtitles",
     "price": "0.08",
     "category": "media",
-    "description": "SRT / VTT subtitle generator from video or audio.",
+    "description": "Generate ready-to-use subtitle files from a video or audio URL.",
     "url": "https://x402.agentutility.ai/subtitles"
   },
   {
     "slug": "summarize",
     "price": "0.01",
     "category": "ai",
-    "description": "Summarize text into TLDR, bullets, paragraph, or executive summary.",
+    "description": "Condense long text into a tighter summary in the shape you actually need.",
     "url": "https://x402.agentutility.ai/summarize"
   },
   {
     "slug": "summarize-text",
     "price": "0.01",
     "category": "ai",
-    "description": "Summarize text into TLDR, bullets, paragraph, or executive summary.",
+    "description": "Condense long text into a shorter summary.",
     "url": "https://x402.agentutility.ai/summarize-text"
   },
   {
@@ -3146,7 +3146,7 @@
     "slug": "transcribe",
     "price": "0.10",
     "category": "ai",
-    "description": "Transcribe video to text.",
+    "description": "Convert spoken audio or video into text.",
     "url": "https://x402.agentutility.ai/transcribe"
   },
   {
@@ -3160,21 +3160,21 @@
     "slug": "translate",
     "price": "0.002",
     "category": "ai",
-    "description": "AI translator. 100+ languages.",
+    "description": "Translate text between languages with native-sounding output instead of literal word-for-word conversion.",
     "url": "https://x402.agentutility.ai/translate"
   },
   {
     "slug": "translate-text",
     "price": "0.01",
     "category": "ai",
-    "description": "AI translator — 100+ languages, native-fluent.",
+    "description": "Translate text into another language with native-level fluency.",
     "url": "https://x402.agentutility.ai/translate-text"
   },
   {
     "slug": "translation-qa-pack",
     "price": "0.04",
     "category": "uncategorized",
-    "description": "Translates text and performs a quick back-translation QA check in one call.",
+    "description": "Translate text and check the translation with a back-translation pass, all in one call.",
     "url": "https://x402.agentutility.ai/translation-qa-pack"
   },
   {
@@ -3342,7 +3342,7 @@
     "slug": "uspto-trademark-search",
     "price": "0.03",
     "category": "uncategorized",
-    "description": "USPTO trademark status / TSDR lookup.",
+    "description": "Looks up the current status of a US trademark by serial number or registration number against the USPTO's own TSDR (Trademark Status and Document Retrieval) database.",
     "url": "https://x402.agentutility.ai/uspto-trademark-search"
   },
   {
@@ -3377,7 +3377,7 @@
     "slug": "video-thumbnail",
     "price": "0.03",
     "category": "media",
-    "description": "Video thumbnail / video frame extractor.",
+    "description": "Pull a single still frame out of a video without transcoding the whole file.",
     "url": "https://x402.agentutility.ai/video-thumbnail"
   },
   {
@@ -3391,14 +3391,14 @@
     "slug": "video-to-text",
     "price": "0.10",
     "category": "ai",
-    "description": "Transcribe any video URL to text with Whisper v3 large — audio is extracted internally.",
+    "description": "Transcribe any video URL to text with Whisper v3 large.",
     "url": "https://x402.agentutility.ai/video-to-text"
   },
   {
     "slug": "video-trim",
     "price": "0.02",
     "category": "media",
-    "description": "Trims a video by passing start + end OR start + duration, in HH:MM:SS, MM:SS, or seconds.",
+    "description": "Cuts a clip out of a source video by start and end point, so you don't need a video editor to pull a highlight or shorten a file.",
     "url": "https://x402.agentutility.ai/video-trim"
   },
   {
@@ -3419,7 +3419,7 @@
     "slug": "voice",
     "price": "0.05",
     "category": "ai",
-    "description": "Converts text to speech with 30+ voices and MP3/WAV/OPUS/AAC/FLAC output.",
+    "description": "Turn written text into spoken audio you can drop straight into a player or app.",
     "url": "https://x402.agentutility.ai/voice"
   },
   {
@@ -3503,7 +3503,7 @@
     "slug": "weather-localize-pack",
     "price": "0.03",
     "category": "uncategorized",
-    "description": "Gets local weather and translates the conditions brief in one call.",
+    "description": "Get current weather for a city and a translated conditions brief in a single call.",
     "url": "https://x402.agentutility.ai/weather-localize-pack"
   },
   {
@@ -3531,7 +3531,7 @@
     "slug": "website-screenshot",
     "price": "0.04",
     "category": "media",
-    "description": "Captures a website screenshot from a URL as PNG or JPG.",
+    "description": "Capture a screenshot of any live URL and get back a hosted PNG or JPG.",
     "url": "https://x402.agentutility.ai/website-screenshot"
   },
   {
@@ -3671,7 +3671,7 @@
     "slug": "xml-to-word",
     "price": "0.05",
     "category": "uncategorized",
-    "description": "XML to Microsoft Word (DOCX) converter via CloudConvert.",
+    "description": "Converts an XML document into a Microsoft Word (.docx) file for delivery to systems that need Word format, not raw XML.",
     "url": "https://x402.agentutility.ai/xml-to-word"
   },
   {

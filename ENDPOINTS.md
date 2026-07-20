@@ -7,11 +7,11 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | Endpoint | Price | What it does |
 |---|---|---|
 | [`ai-content-detector`](https://x402.agentutility.ai/ai-content-detector) | $0.03 | Detect AI-generated writing with a calibrated probability score. |
-| [`ai-to-human-text`](https://x402.agentutility.ai/ai-to-human-text) | $0.01 | AI text humanizer / GPT detector bypass. |
-| [`arxiv-summarize`](https://x402.agentutility.ai/arxiv-summarize) | $0.04 | arXiv paper summarizer / research-paper TLDR. |
+| [`ai-to-human-text`](https://x402.agentutility.ai/ai-to-human-text) | $0.01 | Rewrite AI-generated text so it reads like a person wrote it. |
+| [`arxiv-summarize`](https://x402.agentutility.ai/arxiv-summarize) | $0.04 | Turn an arXiv paper into a structured research summary without reading the PDF. |
 | [`card-resolve`](https://x402.agentutility.ai/card-resolve) | $0.005 | Normalizes free-form graded card text into a canonical card object. |
-| [`classify`](https://x402.agentutility.ai/classify) | $0.02 | Zero-shot text classifier. |
-| [`classify-text`](https://x402.agentutility.ai/classify-text) | $0.02 | Classifies text into caller-supplied labels (2-25), with multi-label mode. |
+| [`classify`](https://x402.agentutility.ai/classify) | $0.02 | Sort text into categories you define on the spot, no training run required. |
+| [`classify-text`](https://x402.agentutility.ai/classify-text) | $0.02 | Sorts a piece of text into categories you define on the fly, no training or fixed label set required. |
 | [`commit-message-from-diff`](https://x402.agentutility.ai/commit-message-from-diff) | $0.01 | Generates a git commit message from a diff in Conventional Commits format. |
 | [`cron-explain`](https://x402.agentutility.ai/cron-explain) | $0.002 | Cron expression parser. |
 | [`cron-next`](https://x402.agentutility.ai/cron-next) | $0.003 | Tells you exactly when a cron expression fires next. |
@@ -21,15 +21,15 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`dep-risk-summary`](https://x402.agentutility.ai/dep-risk-summary) | $0.03 | Scores dependency risk for a whole repo from its manifests and lockfiles. |
 | [`deploy-config-risk`](https://x402.agentutility.ai/deploy-config-risk) | $0.02 | Audits deploy configuration files for production risks. |
 | [`describe-image`](https://x402.agentutility.ai/describe-image) | $0.02 | Describes images with a vision LLM across five modes: describe, alt_text (accessibility, <=125 chars), OCR (extract visible text), tags (8-15 keywords), and caption (single-sentence). |
-| [`detect-language`](https://x402.agentutility.ai/detect-language) | $0.005 | Language detector / language identification. |
+| [`detect-language`](https://x402.agentutility.ai/detect-language) | $0.005 | Identifies what language a piece of text is written in and how confident the call is, returning an ISO 639-1 code, the full language name, and a 0-1 confidence score. |
 | [`detect-pii`](https://x402.agentutility.ai/detect-pii) | $0.02 | Detects PII in text: emails, phones, SSNs, credit cards, addresses, names, IPs, and API tokens. |
 | [`email-draft`](https://x402.agentutility.ai/email-draft) | $0.02 | Writes emails with AI: subject, body, salutation, and sign-off. 7 tones x 10 email types (cold_outreach, follow_up, decline, reply, internal_update, thank_you, intro, request, apology, general), with length controls. |
-| [`extract`](https://x402.agentutility.ai/extract) | $0.02 | Named entity extractor / NER. |
-| [`extract-entities`](https://x402.agentutility.ai/extract-entities) | $0.005 | Named entity recognition (NER) / entity extractor. |
-| [`github-repo-health`](https://x402.agentutility.ai/github-repo-health) | $0.03 | GitHub repo health score / open-source maintainability checker. 0-100 score + grade (abandoned/stale/okay/healthy/thriving). |
+| [`extract`](https://x402.agentutility.ai/extract) | $0.02 | Pull structured entities out of raw text instead of hand-parsing it yourself. |
+| [`extract-entities`](https://x402.agentutility.ai/extract-entities) | $0.005 | Pulls structured entities out of free text: people, organizations, locations, dates, email addresses, URLs, phone numbers, and monetary amounts, each returned verbatim as it appears in the source so you can locate it again. |
+| [`github-repo-health`](https://x402.agentutility.ai/github-repo-health) | $0.03 | Score how healthy and maintained an open-source GitHub repo is. |
 | [`hash-string`](https://x402.agentutility.ai/hash-string) | $0.005 | Computes cryptographic hash digests of any input string across five algorithms: sha1, sha256 (default), sha384, sha512, and md5. |
-| [`humanize`](https://x402.agentutility.ai/humanize) | $0.01 | AI text humanizer / GPT detector bypass. |
-| [`image-expand`](https://x402.agentutility.ai/image-expand) | $0.15 | AI image outpainting / image expansion. |
+| [`humanize`](https://x402.agentutility.ai/humanize) | $0.01 | Rewrite AI-sounding text so it reads like a person wrote it. |
+| [`image-expand`](https://x402.agentutility.ai/image-expand) | $0.15 | Extends a source photo onto a larger canvas, generating realistic new background and content beyond its original edges instead of just stretching or cropping it. |
 | [`json-schema-validate`](https://x402.agentutility.ai/json-schema-validate) | $0.003 | Validates any JSON document against any JSON Schema, draft-07 or 2020-12. |
 | [`logo-detect`](https://x402.agentutility.ai/logo-detect) | $0.03 | Brand logo detection / brand recognition in images. |
 | [`moderate-content`](https://x402.agentutility.ai/moderate-content) | $0.02 | Moderates content for safety, scoring harassment, hate_speech, violence, sexual_content, self_harm, spam, phishing, doxing, illegal_activity, plus custom categories, and returning allow/review/block. |
@@ -43,21 +43,21 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`resume-scorer`](https://x402.agentutility.ai/resume-scorer) | $0.02 | AI resume scorer / ATS keyword analyzer. |
 | [`rewrite-tone`](https://x402.agentutility.ai/rewrite-tone) | $0.02 | Rewrites text in a different tone or writing style. 12 tones: formal, casual, friendly, confident, empathetic, concise, playful, persuasive, apologetic, technical, simple, enthusiastic, with audience and length controls. |
 | [`secrets-exposure-check`](https://x402.agentutility.ai/secrets-exposure-check) | $0.02 | Scans project config files for hardcoded secrets before you deploy. |
-| [`sentiment`](https://x402.agentutility.ai/sentiment) | $0.01 | Sentiment + emotion analyzer. |
+| [`sentiment`](https://x402.agentutility.ai/sentiment) | $0.01 | Score how positive, negative, or mixed a piece of text reads, down to the emotion level. |
 | [`sentiment-analysis`](https://x402.agentutility.ai/sentiment-analysis) | $0.01 | Analyzes sentiment in arbitrary text, returning overall sentiment, a score (-1 to +1), per-emotion labels (joy/anger/sadness/fear/surprise/disgust), and optional aspect-based scoring. |
 | [`slugify`](https://x402.agentutility.ai/slugify) | $0.005 | Turns any string into a URL- and identifier-safe slug. |
-| [`speaker-diarize`](https://x402.agentutility.ai/speaker-diarize) | $0.10 | Speaker diarization / who-said-what transcription. |
+| [`speaker-diarize`](https://x402.agentutility.ai/speaker-diarize) | $0.10 | Transcribe audio or video and label who said what. |
 | [`sql-from-prompt`](https://x402.agentutility.ai/sql-from-prompt) | $0.02 | Turns natural language into SQL for Postgres, MySQL, SQLite, BigQuery, Snowflake, MSSQL, DuckDB, or ANSI. |
-| [`summarize`](https://x402.agentutility.ai/summarize) | $0.01 | Summarize text into TLDR, bullets, paragraph, or executive summary. |
-| [`summarize-text`](https://x402.agentutility.ai/summarize-text) | $0.01 | Summarize text into TLDR, bullets, paragraph, or executive summary. |
+| [`summarize`](https://x402.agentutility.ai/summarize) | $0.01 | Condense long text into a tighter summary in the shape you actually need. |
+| [`summarize-text`](https://x402.agentutility.ai/summarize-text) | $0.01 | Condense long text into a shorter summary. |
 | [`text-to-speech`](https://x402.agentutility.ai/text-to-speech) | $0.05 | Converts text to speech with 30+ voices and 5 audio formats. |
-| [`transcribe`](https://x402.agentutility.ai/transcribe) | $0.10 | Transcribe video to text. |
-| [`translate`](https://x402.agentutility.ai/translate) | $0.002 | AI translator. 100+ languages. |
-| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.01 | AI translator — 100+ languages, native-fluent. |
+| [`transcribe`](https://x402.agentutility.ai/transcribe) | $0.10 | Convert spoken audio or video into text. |
+| [`translate`](https://x402.agentutility.ai/translate) | $0.002 | Translate text between languages with native-sounding output instead of literal word-for-word conversion. |
+| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.01 | Translate text into another language with native-level fluency. |
 | [`upscale-image`](https://x402.agentutility.ai/upscale-image) | $0.02 | Upscales images 2x or 4x with AI super-resolution, best for photos and illustrations. |
 | [`video-summarize`](https://x402.agentutility.ai/video-summarize) | $0.10 | Summarizes videos, podcasts, and lectures in one call: Whisper v3 transcribes, then Mistral summarizes. 5 styles (tldr, bullets, paragraph, executive, chapters); returns summary + transcript; 60 min max. |
-| [`video-to-text`](https://x402.agentutility.ai/video-to-text) | $0.10 | Transcribe any video URL to text with Whisper v3 large — audio is extracted internally. |
-| [`voice`](https://x402.agentutility.ai/voice) | $0.05 | Converts text to speech with 30+ voices and MP3/WAV/OPUS/AAC/FLAC output. |
+| [`video-to-text`](https://x402.agentutility.ai/video-to-text) | $0.10 | Transcribe any video URL to text with Whisper v3 large. |
+| [`voice`](https://x402.agentutility.ai/voice) | $0.05 | Turn written text into spoken audio you can drop straight into a player or app. |
 | [`wikipedia`](https://x402.agentutility.ai/wikipedia) | $0.005 | Fetches Wikipedia articles with disambiguation-aware search across 300+ language editions. |
 | [`wikipedia-lookup`](https://x402.agentutility.ai/wikipedia-lookup) | $0.005 | Fetches the canonical Wikipedia article for a query (page title or near-title) and returns title, canonical URL, page id, Wikidata Q-id, language, plain-text intro summary, short description, page type, thumbnail and lead-image URLs, geo coordinates, full table-of-contents (sections with level and anchor), and an optional ~25k-char extract of the article body. |
 
@@ -85,28 +85,28 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 
 | Endpoint | Price | What it does |
 |---|---|---|
-| [`audio-loudnorm`](https://x402.agentutility.ai/audio-loudnorm) | $0.02 | Audio loudness normalizer (EBU R128 LUFS). |
-| [`compress-pdf`](https://x402.agentutility.ai/compress-pdf) | $0.005 | PDF compressor / PDF size reducer. |
-| [`html-to-pdf`](https://x402.agentutility.ai/html-to-pdf) | $0.08 | Converts a URL to PDF with CloudConvert capture-website; renders JS. |
-| [`image-convert`](https://x402.agentutility.ai/image-convert) | $0.01 | Universal image format converter (PNG, JPG, WEBP, AVIF, GIF, BMP, TIFF, ICO, HEIC, HEIF, PSD, SVG). |
+| [`audio-loudnorm`](https://x402.agentutility.ai/audio-loudnorm) | $0.02 | Normalize audio loudness to a target LUFS level for podcasts, YouTube, and Spotify delivery. |
+| [`compress-pdf`](https://x402.agentutility.ai/compress-pdf) | $0.005 | Shrink a PDF's file size without manually tuning compression settings. |
+| [`html-to-pdf`](https://x402.agentutility.ai/html-to-pdf) | $0.08 | Render a live webpage as a PDF document. |
+| [`image-convert`](https://x402.agentutility.ai/image-convert) | $0.01 | Convert an image from one format to another. |
 | [`mp4-to-mp3`](https://x402.agentutility.ai/mp4-to-mp3) | $0.02 | Converts MP4, MOV, WebM, MKV, AVI, M4V, and FLV video files to MP3 via CloudConvert, with selectable bitrate (96/128/192 kbps). 60-min / 500MB max. |
-| [`office-to-pdf`](https://x402.agentutility.ai/office-to-pdf) | $0.05 | Office to PDF converter — DOCX/DOC, XLSX/XLS, PPTX/PPT, ODT/ODS/ODP, RTF, TXT, CSV, EPUB, MD, HTML, Apple Pages/Numbers/Keynote to PDF. |
-| [`pdf-merge`](https://x402.agentutility.ai/pdf-merge) | $0.01 | Merges 2-50 PDFs from URLs into a single PDF, preserving bookmarks. |
-| [`pdf-split`](https://x402.agentutility.ai/pdf-split) | $0.04 | PDF splitter / PDF page extractor. |
-| [`pdf-to-jpg`](https://x402.agentutility.ai/pdf-to-jpg) | $0.10 | Converts a PDF to JPG, PNG, or WEBP images, rendering every page at configurable DPI (36-600) and returning one image URL per page. |
-| [`screenshot`](https://x402.agentutility.ai/screenshot) | $0.04 | Website screenshot / URL to PNG/JPG. |
-| [`subtitles`](https://x402.agentutility.ai/subtitles) | $0.08 | SRT / VTT subtitle generator from video or audio. |
-| [`video-thumbnail`](https://x402.agentutility.ai/video-thumbnail) | $0.03 | Video thumbnail / video frame extractor. |
+| [`office-to-pdf`](https://x402.agentutility.ai/office-to-pdf) | $0.05 | Converts office documents and other file formats into PDF from a URL, no upload step required. |
+| [`pdf-merge`](https://x402.agentutility.ai/pdf-merge) | $0.01 | Joins multiple PDF files, hosted at URLs, into a single ordered document, so you don't have to merge them by hand in a desktop PDF editor. |
+| [`pdf-split`](https://x402.agentutility.ai/pdf-split) | $0.04 | Split a PDF into multiple files by page range or one file per page. |
+| [`pdf-to-jpg`](https://x402.agentutility.ai/pdf-to-jpg) | $0.10 | Convert a PDF into page images for previews, thumbnails, or archiving. |
+| [`screenshot`](https://x402.agentutility.ai/screenshot) | $0.04 | Turn any public URL into a PNG or JPG image on demand. |
+| [`subtitles`](https://x402.agentutility.ai/subtitles) | $0.08 | Generate ready-to-use subtitle files from a video or audio URL. |
+| [`video-thumbnail`](https://x402.agentutility.ai/video-thumbnail) | $0.03 | Pull a single still frame out of a video without transcoding the whole file. |
 | [`video-to-subtitles`](https://x402.agentutility.ai/video-to-subtitles) | $0.02 | Generates subtitles from video with Whisper v3, word-wrapped and ready for VLC / Premiere / FFmpeg. |
-| [`video-trim`](https://x402.agentutility.ai/video-trim) | $0.02 | Trims a video by passing start + end OR start + duration, in HH:MM:SS, MM:SS, or seconds. |
+| [`video-trim`](https://x402.agentutility.ai/video-trim) | $0.02 | Cuts a clip out of a source video by start and end point, so you don't need a video editor to pull a highlight or shorten a file. |
 | [`watermark`](https://x402.agentutility.ai/watermark) | $0.02 | Adds a text or image watermark overlay to PDFs, PNG/JPG/GIF images, and MP4/MOV/WEBM videos. |
-| [`website-screenshot`](https://x402.agentutility.ai/website-screenshot) | $0.04 | Captures a website screenshot from a URL as PNG or JPG. |
+| [`website-screenshot`](https://x402.agentutility.ai/website-screenshot) | $0.04 | Capture a screenshot of any live URL and get back a hosted PNG or JPG. |
 
 ## security
 
 | Endpoint | Price | What it does |
 |---|---|---|
-| [`production-readiness-score`](https://x402.agentutility.ai/production-readiness-score) | $0.10 | Scores production readiness for a repo in one call, aggregating the Prooflayer cluster. |
+| [`production-readiness-score`](https://x402.agentutility.ai/production-readiness-score) | $0.10 | Composite: one call runs secrets-exposure-check, deploy-config-risk, db-migration-risk, dep-risk-summary, and prompt-injection-surface in parallel and rolls the results into one production-readiness verdict for a repo. |
 
 ## uncategorized
 
@@ -130,7 +130,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`arbitrage-spread`](https://x402.agentutility.ai/arbitrage-spread) | $0.005 | Finds the cross-exchange arbitrage spread for any CoinGecko-listed coin. |
 | [`article-brief`](https://x402.agentutility.ai/article-brief) | $0.04 | Analyzes a news article from its URL into a summary, named entities, and sentiment in one call. |
 | [`arxiv-bibtex`](https://x402.agentutility.ai/arxiv-bibtex) | $0.005 | Turns an arXiv paper into a BibTeX entry: pulls title, authors, year, abstract, and DOI from the arXiv API and generates a properly-formatted BibTeX entry with an auto-derived cite key (or your own). |
-| [`arxiv-search`](https://x402.agentutility.ai/arxiv-search) | $0.03 | arXiv full-text search. |
+| [`arxiv-search`](https://x402.agentutility.ai/arxiv-search) | $0.03 | Search arXiv's full paper catalog by query, author, category, or a specific id-list and get back structured results instead of scraping HTML. |
 | [`asset-based-lending-score`](https://x402.agentutility.ai/asset-based-lending-score) | $0.01 | Scores the risk of an asset based lending (ABL) facility, returning a weighted score and grade. |
 | [`astro-times`](https://x402.agentutility.ai/astro-times) | $0.005 | Sunrise sunset times. |
 | [`audio-brief`](https://x402.agentutility.ai/audio-brief) | $0.07 | Transcribes and digests any audio URL in one call: transcript, summary, and sentiment. |
@@ -141,7 +141,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`basename-resolve`](https://x402.agentutility.ai/basename-resolve) | $0.005 | Resolves Coinbase Basenames (.base.eth) to Ethereum addresses and back, reading the Base mainnet L2 Resolver on-chain (no gas, no wallet). |
 | [`bestiary-random`](https://x402.agentutility.ai/bestiary-random) | $0.01 | Returns a random creature with a short encyclopedia entry and a fun fact. |
 | [`blended-finance-score`](https://x402.agentutility.ai/blended-finance-score) | $0.01 | Scores a blended finance structure on how efficiently concessional capital mobilizes private money, returning a 0-100 structure score. |
-| [`bls-occupational-stats`](https://x402.agentutility.ai/bls-occupational-stats) | $0.02 | BLS Public Data API — wages, employment levels, growth by series ID. |
+| [`bls-occupational-stats`](https://x402.agentutility.ai/bls-occupational-stats) | $0.02 | Pull wage, employment level, and growth data straight from the Bureau of Labor Statistics Public Data API by series ID, covering formats like OEWS occupational wages (OEUM...), local-area unemployment (LAU...), and CES employment series. |
 | [`brand-availability-sweep`](https://x402.agentutility.ai/brand-availability-sweep) | $0.06 | Brand availability sweep API for a name availability check before you commit to a startup, product, or project name: trademark signal, domain availability, X/Twitter handle availability, brandable alternative names, and a brandability score in one call. |
 | [`brand-bootstrap`](https://x402.agentutility.ai/brand-bootstrap) | $0.01 | Bootstraps a brand kit for a new business or product in one call. |
 | [`brand-clearance`](https://x402.agentutility.ai/brand-clearance) | $0.25 | Screens a candidate brand name across trademark, domain, and web-presence checks in a single composite signal. |
@@ -202,7 +202,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`crypto-news`](https://x402.agentutility.ai/crypto-news) | $0.005 | Fetches recent cryptocurrency news headlines from GDELT with a GNews fallback when configured, filtered by crypto topic or caller query, returning headline URLs, domains, timestamps, language/country metadata, and headline sentiment. |
 | [`crypto-news-brief`](https://x402.agentutility.ai/crypto-news-brief) | $0.03 | Daily crypto news digest for a topic: today's headlines plus a structured research brief with overview, key facts, and recent news with source citations, in one call. |
 | [`crypto-signal-scan`](https://x402.agentutility.ai/crypto-signal-scan) | $0.05 | Structured, informational signal brief for a token or crypto topic: X/Twitter sentiment, recent web coverage, and (when a fiat quote currency is supplied) a current exchange-rate reference, in one call. |
-| [`crypto-tx-explainer`](https://x402.agentutility.ai/crypto-tx-explainer) | $0.04 | Ethereum/Base/Arbitrum/Optimism/Polygon transaction explainer. |
+| [`crypto-tx-explainer`](https://x402.agentutility.ai/crypto-tx-explainer) | $0.04 | Explain what actually happened in an on-chain transaction on Ethereum, Base, Arbitrum, Optimism, or Polygon by sending its tx_hash. |
 | [`cyber-exposure-brief`](https://x402.agentutility.ai/cyber-exposure-brief) | $0.08 | External exposure summary for a domain: DNS records, the hosting network/ASN behind the resolved IP, TLS certificate posture, and a web search for public breach/exposure mentions, in one call. |
 | [`dao-proposal-monitor`](https://x402.agentutility.ai/dao-proposal-monitor) | $0.03 | Monitors DAO governance proposals on Snapshot.org for any space. |
 | [`dcf-valuation-calculator`](https://x402.agentutility.ai/dcf-valuation-calculator) | $0.01 | Runs a discounted cash flow (DCF) valuation to get enterprise value, equity value, and value per share. |
@@ -228,7 +228,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`dungeon-room`](https://x402.agentutility.ai/dungeon-room) | $0.005 | Generates a random dungeon room for game masters: shape, contents, a notable feature, a hazard, an occupant, and the number of exits. |
 | [`duplicate-ticket-detect`](https://x402.agentutility.ai/duplicate-ticket-detect) | $0.008 | Checks a new support ticket against a batch of existing ones and ranks which are likely the same issue, so you can merge or link duplicates before they get worked twice. |
 | [`earnings-calendar`](https://x402.agentutility.ai/earnings-calendar) | $0.03 | Finds a company's next earnings date and its recent earnings-related SEC filings. |
-| [`earnings-call-transcribe`](https://x402.agentutility.ai/earnings-call-transcribe) | $0.03 | Earnings call transcriber. |
+| [`earnings-call-transcribe`](https://x402.agentutility.ai/earnings-call-transcribe) | $0.03 | Transcribes a company earnings call from its publicly posted investor-relations webcast or replay audio URL, then optionally turns that transcript into a structured summary. |
 | [`earnings-transcript`](https://x402.agentutility.ai/earnings-transcript) | $0.03 | Earnings call transcript generator. |
 | [`earthquakes-recent`](https://x402.agentutility.ai/earthquakes-recent) | $0.003 | Returns recent earthquakes from USGS for any time window (hour, day, week, month) above a magnitude threshold. |
 | [`email`](https://x402.agentutility.ai/email) | $0.005 | Validates an email address end to end: syntax, MX reachability, disposable/temp-mail domains, role accounts, and SPF/DMARC/DKIM posture. |
@@ -338,7 +338,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`new-company-brief`](https://x402.agentutility.ai/new-company-brief) | $0.01 | Builds a launch brief for a new company: positioning, taglines, messaging pillars, logo prompt, launch checklist, and channels. |
 | [`news-content`](https://x402.agentutility.ai/news-content) | $0.05 | News-with-full-text API: send a topic and get back recent news articles with each article's cleaned page text already attached, instead of a headline list you have to fetch yourself. |
 | [`news-digest`](https://x402.agentutility.ai/news-digest) | $0.05 | Summarizes the news on any topic in one call: ranked results, a bullet digest of the coverage, and the named entities (people, companies, places) driving the story. |
-| [`nft-floor`](https://x402.agentutility.ai/nft-floor) | $0.01 | Gets an NFT collection's floor price and recent sales via Reservoir. |
+| [`nft-floor`](https://x402.agentutility.ai/nft-floor) | $0.01 | Returns an NFT collection's floor price and market stats from CoinGecko. |
 | [`npc-gen`](https://x402.agentutility.ai/npc-gen) | $0.005 | Generates a quick NPC for game masters: name, race, occupation, personality trait, distinctive appearance, mannerism, and a hidden secret/plot hook. |
 | [`npm-package-stats`](https://x402.agentutility.ai/npm-package-stats) | $0.003 | Fetches the public npm registry record for a package and returns description, license, repository, latest version, total version count, recent versions with publish timestamps and deprecation flags, age in days, days since last release, maintainer count + list, and downloads for the last day, week, month, year. |
 | [`npm-trust-pack`](https://x402.agentutility.ai/npm-trust-pack) | $0.04 | Vets an npm package before install in one call: supply-chain risk score plus registry stats. |
@@ -399,7 +399,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`roi-calculator`](https://x402.agentutility.ai/roi-calculator) | $0.01 | Calculates return on investment from an initial investment plus final value or net profit. |
 | [`saas-metrics-score`](https://x402.agentutility.ai/saas-metrics-score) | $0.01 | Scores a SaaS business on the rule of 40 and core operating metrics. |
 | [`safe-multisig-status`](https://x402.agentutility.ai/safe-multisig-status) | $0.005 | Reads a Safe (Gnosis Safe) multisig's on-chain state: owners, threshold, and the pending transaction queue. |
-| [`safe-tx-decode`](https://x402.agentutility.ai/safe-tx-decode) | $0.003 | Gnosis Safe execTransaction decoder. |
+| [`safe-tx-decode`](https://x402.agentutility.ai/safe-tx-decode) | $0.003 | Decodes a Gnosis Safe multisig transaction into its actual on-chain instructions: target contract, ETH value, calldata, call vs delegatecall operation, gas parameters, and signer count. |
 | [`safe-tx-review`](https://x402.agentutility.ai/safe-tx-review) | $0.06 | Multisig preflight for a Gnosis Safe: this is the safe tx review, transaction review, and pre-signature check a treasury agent runs before an owner signs. |
 | [`satellite-address`](https://x402.agentutility.ai/satellite-address) | $0.01 | Turns a street address into a cloud-free satellite image in one call. |
 | [`satellite-bbox`](https://x402.agentutility.ai/satellite-bbox) | $0.02 | Builds a cloud-free Sentinel-2 mosaic over any bounding box and returns it as a single PNG composite. |
@@ -408,10 +408,10 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`scrape-to-json`](https://x402.agentutility.ai/scrape-to-json) | $0.02 | Turn any webpage into structured JSON that matches your schema. |
 | [`search`](https://x402.agentutility.ai/search) | $0.01 | Returns ranked Google web search results for a query, with title, URL, snippet, domain, and optional recency filter. |
 | [`search-content`](https://x402.agentutility.ai/search-content) | $0.05 | Search-with-contents API: send a query and get back ranked web results with each page's cleaned text already attached, instead of a link list you have to fetch yourself. |
-| [`search-web`](https://x402.agentutility.ai/search-web) | $0.01 | Ranked Google results with snippets and domains from Decodo Google Search. |
+| [`search-web`](https://x402.agentutility.ai/search-web) | $0.01 | Run a Google web search and get ranked results back: titles, snippets, and domains, with no LLM summary attached. |
 | [`semantic-chunk`](https://x402.agentutility.ai/semantic-chunk) | $0.005 | Splits long text into chunks for RAG pipelines, with three modes: 'fixed' (hard char-count windows with overlap), 'sentence' (greedy pack of sentences up to chunk_size), 'paragraph' (split on blank lines, never pack across paragraphs). |
 | [`seo-snapshot`](https://x402.agentutility.ai/seo-snapshot) | $0.04 | Audits a page's on-page SEO in one call: head metadata, link profile, and keyword ideas. |
-| [`serp-search`](https://x402.agentutility.ai/serp-search) | $0.01 | Ranked Google search results with title, URL, snippet, and domain from Decodo Google Search. |
+| [`serp-search`](https://x402.agentutility.ai/serp-search) | $0.01 | Pull ranked Google search results, title, URL, snippet, and domain, for any query. |
 | [`settlement-gen`](https://x402.agentutility.ai/settlement-gen) | $0.005 | Generates a random fantasy settlement: name, size category with a plausible population, government, primary trade, a notable feature, and a current problem the party could engage with. |
 | [`site-forensics-pack`](https://x402.agentutility.ai/site-forensics-pack) | $0.06 | Site forensics pack API for a page capture and web investigation: pull a visual screenshot, an archive.org Wayback snapshot, the detected tech stack, page metadata, outbound links, and the sitemap in one call. |
 | [`site-snapshot-pack`](https://x402.agentutility.ai/site-snapshot-pack) | $0.05 | Captures a website's screenshot, metadata, and SSL certificate in one call. |
@@ -420,7 +420,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`sla-extract`](https://x402.agentutility.ai/sla-extract) | $0.015 | Pulls the actual service-level terms out of a contract, vendor agreement, or support policy so you don't have to hunt through pages of text for them. |
 | [`slop-filtered-brief`](https://x402.agentutility.ai/slop-filtered-brief) | $0.06 | Research a topic without the AI-generated slop. |
 | [`social-handle-check`](https://x402.agentutility.ai/social-handle-check) | $0.005 | Checks whether a proposed X/Twitter handle is claimed and returns public account metrics when it exists. |
-| [`social-image-pack`](https://x402.agentutility.ai/social-image-pack) | $0.04 | Creates a social-ready visual package in one call: generated image, caption, and keyword ideas. |
+| [`social-image-pack`](https://x402.agentutility.ai/social-image-pack) | $0.04 | Build a social-ready creative package, image, caption, and keyword ideas, in one paid call instead of three. |
 | [`social-mindshare`](https://x402.agentutility.ai/social-mindshare) | $0.05 | Social mindshare API: send a term and get back how much space it occupies across X/Twitter, news, and Hacker News in one call, with an optional up-to-three-term comparison and a share-of-voice split. |
 | [`social-profile-pack`](https://x402.agentutility.ai/social-profile-pack) | $0.04 | Snapshots an X (Twitter) account in one call: profile, recent tweets, and sentiment. |
 | [`solana-flagged-tokens`](https://x402.agentutility.ai/solana-flagged-tokens) | $0.005 | Feed of recently active Solana tokens flagged for risk from DEX Screener market data. |
@@ -433,7 +433,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`spell-lookup`](https://x402.agentutility.ai/spell-lookup) | $0.003 | Looks up a D&D 5e spell by name and returns full SRD details. |
 | [`spell-slots`](https://x402.agentutility.ai/spell-slots) | $0.005 | Looks up D&D 5e spell slots by class and level. |
 | [`sports-schedule`](https://x402.agentutility.ai/sports-schedule) | $0.01 | Returns upcoming games and recent results for major sports leagues: MLB, NBA, NHL, NFL, WNBA, MLS, EPL, La Liga, Bundesliga, and Serie A. |
-| [`sql-query-review`](https://x402.agentutility.ai/sql-query-review) | $0.04 | Generates SQL and reviews it in one call. |
+| [`sql-query-review`](https://x402.agentutility.ai/sql-query-review) | $0.04 | Turn a plain-English request into SQL and get a review of it before you run it. |
 | [`stablecoin-health-report`](https://x402.agentutility.ai/stablecoin-health-report) | $0.04 | Reports stablecoin peg health and the largest stablecoin yield pools in one call. |
 | [`stablecoin-monitor`](https://x402.agentutility.ai/stablecoin-monitor) | $0.005 | Stablecoin monitor. |
 | [`startup-comparables`](https://x402.agentutility.ai/startup-comparables) | $0.08 | Structured comparables snapshot for a company/sector pair: a sector-scoped web search surfacing candidate peers plus a research brief on the company itself (overview, key facts, sources), in one call. |
@@ -476,7 +476,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`topic-trend-brief`](https://x402.agentutility.ai/topic-trend-brief) | $0.05 | Topic trend brief API to check whether interest in a topic is rising: send a topic and window, get back Wikipedia pageview trend, recent news mention volume, Hacker News mention volume, and X/Twitter mention volume in one call. |
 | [`trade-finance-risk-score`](https://x402.agentutility.ai/trade-finance-risk-score) | $0.01 | Scores the risk of a trade finance transaction from 0-100. |
 | [`transition-finance-score`](https://x402.agentutility.ai/transition-finance-score) | $0.01 | Scores the credibility of a climate transition plan for financing, returning a 0-100 credibility score. |
-| [`translation-qa-pack`](https://x402.agentutility.ai/translation-qa-pack) | $0.04 | Translates text and performs a quick back-translation QA check in one call. |
+| [`translation-qa-pack`](https://x402.agentutility.ai/translation-qa-pack) | $0.04 | Translate text and check the translation with a back-translation pass, all in one call. |
 | [`travel-brief`](https://x402.agentutility.ai/travel-brief) | $0.05 | Pre-trip brief for a destination city: current weather, an fx rate from the traveler's home currency, and survival phrases translated into the destination language, plus an optional postcard illustration. |
 | [`trip-conditions-pack`](https://x402.agentutility.ai/trip-conditions-pack) | $0.03 | Briefs a trip stop for any coordinates in one call: weather, air quality, sunrise/sunset, and timezone. |
 | [`trip-readiness-brief`](https://x402.agentutility.ai/trip-readiness-brief) | $0.06 | Cross-border trip readiness for a route and date: the pre-travel check, visa and weather brief, and international travel readiness pack a booking agent runs before confirming an itinerary. |
@@ -499,7 +499,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`user-tweets`](https://x402.agentutility.ai/user-tweets) | $0.01 | Fetches the latest public tweets from any X username, with text, timestamps, metrics, pagination token, and author profile. |
 | [`users`](https://x402.agentutility.ai/users) | $0.01 | Looks up X user profiles in bulk by usernames or IDs, using the read-only X API v2 users route matching market demand for bulk public profiles. |
 | [`users-by-username`](https://x402.agentutility.ai/users-by-username) | $0.005 | Resolves an X handle to a public profile: id, username, display name, bio, verification fields, created_at, followers, following, tweet count, and listed count. |
-| [`uspto-trademark-search`](https://x402.agentutility.ai/uspto-trademark-search) | $0.03 | USPTO trademark status / TSDR lookup. |
+| [`uspto-trademark-search`](https://x402.agentutility.ai/uspto-trademark-search) | $0.03 | Looks up the current status of a US trademark by serial number or registration number against the USPTO's own TSDR (Trademark Status and Document Retrieval) database. |
 | [`vendor-questionnaire-draft`](https://x402.agentutility.ai/vendor-questionnaire-draft) | $0.08 | Drafts vendor security questionnaire answers from evidence you supply. |
 | [`vendor-risk-brief`](https://x402.agentutility.ai/vendor-risk-brief) | $0.06 | Vendor risk brief API for supplier vetting and vendor onboarding checks: assess a vendor or supplier domain before you sign a contract or grant system access. |
 | [`video-brief`](https://x402.agentutility.ai/video-brief) | $0.08 | Transcribes and summarizes any video URL in one call. |
@@ -515,7 +515,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`weather-current-city`](https://x402.agentutility.ai/weather-current-city) | $0.01 | Returns current weather for any city or place name, no coordinates needed. |
 | [`weather-forecast`](https://x402.agentutility.ai/weather-forecast) | $0.002 | Returns current conditions, a 1-7 day daily forecast, and an optional hourly forecast for any latitude/longitude. |
 | [`weather-gen`](https://x402.agentutility.ai/weather-gen) | $0.005 | Rolls a day's weather for a fantasy RPG campaign by climate (temperate, arid, cold, tropical), with conditions and wind. |
-| [`weather-localize-pack`](https://x402.agentutility.ai/weather-localize-pack) | $0.03 | Gets local weather and translates the conditions brief in one call. |
+| [`weather-localize-pack`](https://x402.agentutility.ai/weather-localize-pack) | $0.03 | Get current weather for a city and a translated conditions brief in a single call. |
 | [`web-search`](https://x402.agentutility.ai/web-search) | $0.006 | Ranked Google results for a query: title, URL, snippet, domain, and a recency filter, via Decodo Google Search. |
 | [`webpage-change-report`](https://x402.agentutility.ai/webpage-change-report) | $0.04 | Detects changes to a webpage and explains them in plain language, in one call. |
 | [`website-trust-report`](https://x402.agentutility.ai/website-trust-report) | $0.04 | Gathers site legitimacy signals for a URL in one call: TLS, domain risk, lookalike detection, metadata, and tech stack. |
@@ -533,7 +533,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`x-topic-pulse`](https://x402.agentutility.ai/x-topic-pulse) | $0.05 | Takes the pulse of a topic on X (Twitter): tweet search, sentiment, and top voices in one call. |
 | [`x-username`](https://x402.agentutility.ai/x-username) | $0.005 | Looks up a public X profile by username, wrapping the read-only X API v2 user-by-username route. |
 | [`xbrl-financials`](https://x402.agentutility.ai/xbrl-financials) | $0.05 | Pulls company fundamentals as structured time-series straight from SEC XBRL filings. |
-| [`xml-to-word`](https://x402.agentutility.ai/xml-to-word) | $0.05 | XML to Microsoft Word (DOCX) converter via CloudConvert. |
+| [`xml-to-word`](https://x402.agentutility.ai/xml-to-word) | $0.05 | Converts an XML document into a Microsoft Word (.docx) file for delivery to systems that need Word format, not raw XML. |
 | [`xp-level`](https://x402.agentutility.ai/xp-level) | $0.005 | Converts between XP and level using the D&D 5e experience table. |
 | [`youtube-brief`](https://x402.agentutility.ai/youtube-brief) | $0.05 | Summarizes a YouTube video from its URL or ID: transcript, TLDR, and named entities in one call. |
 | [`youtube-transcript`](https://x402.agentutility.ai/youtube-transcript) | $0.01 | Fetch the transcript of any YouTube video. |
@@ -557,9 +557,9 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`jwt-decode`](https://x402.agentutility.ai/jwt-decode) | $0.003 | Decodes a JWT and inspects its claims without needing the signing key. |
 | [`password-strength`](https://x402.agentutility.ai/password-strength) | $0.02 | Measures password strength with a zxcvbn-style score and optional HIBP breach lookup. |
 | [`pdf-to-markdown`](https://x402.agentutility.ai/pdf-to-markdown) | $0.0025 | Converts digital or scanned PDFs to clean Markdown with AI-powered, layout-aware extraction on the Datalab Marker engine. |
-| [`pdf2md`](https://x402.agentutility.ai/pdf2md) | $0.20 | PDF to Markdown converter. |
+| [`pdf2md`](https://x402.agentutility.ai/pdf2md) | $0.20 | Convert a hosted PDF into clean Markdown, HTML, or structured JSON by sending its pdf_url. |
 | [`reverse-geocode`](https://x402.agentutility.ai/reverse-geocode) | $0.02 | Converts latitude/longitude coordinates into a structured street address. |
-| [`rss-from-anything`](https://x402.agentutility.ai/rss-from-anything) | $0.04 | RSS feed generator / HTML to RSS converter. |
+| [`rss-from-anything`](https://x402.agentutility.ai/rss-from-anything) | $0.04 | Turn any webpage into an RSS feed, even sites that never published one. |
 | [`scrape`](https://x402.agentutility.ai/scrape) | $0.04 | Scrape any webpage. |
 | [`scrape-website`](https://x402.agentutility.ai/scrape-website) | $0.04 | Scrapes any webpage and pulls title, description, canonical URL, OpenGraph + Twitter card metadata, headings, and outbound links from a single URL. |
 | [`ssl-cert-info`](https://x402.agentutility.ai/ssl-cert-info) | $0.03 | Inspects a domain's SSL/TLS certificate: issuer, subject, SAN list, validity dates, and days-until-expiry. |
