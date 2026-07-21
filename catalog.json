@@ -658,6 +658,13 @@
     "url": "https://x402.agentutility.ai/creature-image"
   },
   {
+    "slug": "creature-kit",
+    "price": "0.09",
+    "category": "uncategorized",
+    "description": "Generates a complete creature kit in one call: an original 5e-style stat block plus a rendered image of the creature.",
+    "url": "https://x402.agentutility.ai/creature-kit"
+  },
+  {
     "slug": "creature-lore",
     "price": "0.01",
     "category": "uncategorized",

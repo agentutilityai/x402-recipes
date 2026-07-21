@@ -193,6 +193,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`creature-compare`](https://x402.agentutility.ai/creature-compare) | $0.01 | Compares any two creatures head-to-head and reasons out who would win. |
 | [`creature-identify`](https://x402.agentutility.ai/creature-identify) | $0.01 | Identifies a creature from a description, set of clues, or half-remembered details. |
 | [`creature-image`](https://x402.agentutility.ai/creature-image) | $0.08 | Renders any creature as an image and returns a hosted PNG URL. |
+| [`creature-kit`](https://x402.agentutility.ai/creature-kit) | $0.09 | Generates a complete creature kit in one call: an original 5e-style stat block plus a rendered image of the creature. |
 | [`creature-lore`](https://x402.agentutility.ai/creature-lore) | $0.01 | An encyclopedia of creatures, monsters, spirits, and beings from any world or source. |
 | [`creature-statblock`](https://x402.agentutility.ai/creature-statblock) | $0.01 | Turns any creature from any world, book, film, game, myth, or song into an original, playable 5e-style stat block. |
 | [`cron-pack`](https://x402.agentutility.ai/cron-pack) | $0.02 | Parses, explains, and forecasts a cron expression in one call. |
