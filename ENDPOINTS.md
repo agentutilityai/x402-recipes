@@ -426,7 +426,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`solana-flagged-tokens`](https://x402.agentutility.ai/solana-flagged-tokens) | $0.005 | Feed of recently active Solana tokens flagged for risk from DEX Screener market data. |
 | [`solana-token-report`](https://x402.agentutility.ai/solana-token-report) | $0.04 | Screens a Solana SPL token in one call: safety score, authority checks, and flagged-list membership. |
 | [`solana-token-safety`](https://x402.agentutility.ai/solana-token-safety) | $0.02 | Scores the safety of a Solana SPL token from on-chain security signals, returning a 0-100 safety score, grade, flags, and recommendation. |
-| [`solana-token-watchlist`](https://x402.agentutility.ai/solana-token-watchlist) | $0.005 | Watchlist of recently profiled and actively boosted Solana tokens with DEX Screener market data. |
+| [`solana-token-watchlist`](https://x402.agentutility.ai/solana-token-watchlist) | $0.005 | Solana token price watchlist returns recently profiled and actively boosted tokens with public DEX market data. |
 | [`solana-trending-tokens`](https://x402.agentutility.ai/solana-trending-tokens) | $0.005 | Ranks trending, actively boosted Solana tokens by liquidity, volume, 24h txns, boost amount, and price movement. |
 | [`sound-effect-generate`](https://x402.agentutility.ai/sound-effect-generate) | $0.01 | Generates sound effects from a text prompt via Venice using elevenlabs-sound-effects-v2. |
 | [`source-trust-envelope`](https://x402.agentutility.ai/source-trust-envelope) | $0.07 | Send a URL, get one verdict on whether your agent should trust and cite it. |
