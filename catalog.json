@@ -2565,7 +2565,7 @@
     "slug": "search",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Returns ranked Google web search results for a query, with title, URL, snippet, domain, and optional recency filter.",
+    "description": "Returns ranked Decodo Google web results.",
     "url": "https://x402.agentutility.ai/search"
   },
   {
@@ -2579,7 +2579,7 @@
     "slug": "search-web",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Run a Google web search and get ranked results back: titles, snippets, and domains, with no LLM summary attached.",
+    "description": "Run a Decodo Google web search and get ranked results with no LLM summary.",
     "url": "https://x402.agentutility.ai/search-web"
   },
   {
@@ -2628,7 +2628,7 @@
     "slug": "serp-search",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Pull ranked Google search results, title, URL, snippet, and domain, for any query.",
+    "description": "Pull ranked Decodo Google results for any query.",
     "url": "https://x402.agentutility.ai/serp-search"
   },
   {

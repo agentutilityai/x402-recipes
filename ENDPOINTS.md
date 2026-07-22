@@ -407,12 +407,12 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`satellite-change`](https://x402.agentutility.ai/satellite-change) | $0.05 | Renders before/after satellite images of the same area for change detection. |
 | [`satellite-tile`](https://x402.agentutility.ai/satellite-tile) | $0.005 | Returns a recent cloud-free satellite image (Sentinel-2, 10m) as a PNG centered on a lat/lon at a slippy-map zoom level. |
 | [`scrape-to-json`](https://x402.agentutility.ai/scrape-to-json) | $0.02 | Turn any webpage into structured JSON that matches your schema. |
-| [`search`](https://x402.agentutility.ai/search) | $0.01 | Returns ranked Google web search results for a query, with title, URL, snippet, domain, and optional recency filter. |
+| [`search`](https://x402.agentutility.ai/search) | $0.01 | Returns ranked Decodo Google web results. |
 | [`search-content`](https://x402.agentutility.ai/search-content) | $0.05 | Search-with-contents API: send a query and get back ranked web results with each page's cleaned text already attached, instead of a link list you have to fetch yourself. |
-| [`search-web`](https://x402.agentutility.ai/search-web) | $0.01 | Run a Google web search and get ranked results back: titles, snippets, and domains, with no LLM summary attached. |
+| [`search-web`](https://x402.agentutility.ai/search-web) | $0.01 | Run a Decodo Google web search and get ranked results with no LLM summary. |
 | [`semantic-chunk`](https://x402.agentutility.ai/semantic-chunk) | $0.005 | Splits long text into chunks for RAG pipelines, with three modes: 'fixed' (hard char-count windows with overlap), 'sentence' (greedy pack of sentences up to chunk_size), 'paragraph' (split on blank lines, never pack across paragraphs). |
 | [`seo-snapshot`](https://x402.agentutility.ai/seo-snapshot) | $0.04 | Audits a page's on-page SEO in one call: head metadata, link profile, and keyword ideas. |
-| [`serp-search`](https://x402.agentutility.ai/serp-search) | $0.01 | Pull ranked Google search results, title, URL, snippet, and domain, for any query. |
+| [`serp-search`](https://x402.agentutility.ai/serp-search) | $0.01 | Pull ranked Decodo Google results for any query. |
 | [`settlement-gen`](https://x402.agentutility.ai/settlement-gen) | $0.005 | Generates a random fantasy settlement: name, size category with a plausible population, government, primary trade, a notable feature, and a current problem the party could engage with. |
 | [`site-forensics-pack`](https://x402.agentutility.ai/site-forensics-pack) | $0.06 | Site forensics pack API for a page capture and web investigation: pull a visual screenshot, an archive.org Wayback snapshot, the detected tech stack, page metadata, outbound links, and the sitemap in one call. |
 | [`site-snapshot-pack`](https://x402.agentutility.ai/site-snapshot-pack) | $0.05 | Captures a website's screenshot, metadata, and SSL certificate in one call. |
