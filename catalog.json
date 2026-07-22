@@ -724,7 +724,7 @@
     "slug": "crypto-news",
     "price": "0.005",
     "category": "uncategorized",
-    "description": "Fetches recent cryptocurrency news headlines from GDELT with a GNews fallback when configured, filtered by crypto topic or caller query, returning headline URLs, domains, timestamps, language/country metadata, and headline sentiment.",
+    "description": "Crypto news API for agents that need recent cryptocurrency headlines by topic or query.",
     "url": "https://x402.agentutility.ai/crypto-news"
   },
   {
@@ -1627,7 +1627,7 @@
     "slug": "llm-cost-estimate",
     "price": "0.005",
     "category": "uncategorized",
-    "description": "LLM cost estimate API and token cost calculator for comparing inference cost across models before you run a prompt.",
+    "description": "LLM cost estimate API, token cost estimate endpoint, and token cost calculator for comparing inference cost across models before you run a prompt.",
     "url": "https://x402.agentutility.ai/llm-cost-estimate"
   },
   {
