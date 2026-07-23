@@ -724,7 +724,7 @@
     "slug": "crypto-news",
     "price": "0.005",
     "category": "uncategorized",
-    "description": "Crypto news API for agents that need recent cryptocurrency headlines by topic or query.",
+    "description": "Crypto news API that searches recent cryptocurrency headlines for a topic, token, protocol, or market event.",
     "url": "https://x402.agentutility.ai/crypto-news"
   },
   {
