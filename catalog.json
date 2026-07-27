@@ -3151,7 +3151,7 @@
   },
   {
     "slug": "translate-text",
-    "price": "0.01",
+    "price": "0.002",
     "category": "ai",
     "description": "Translate text into another language with native-level fluency.",
     "url": "https://x402.agentutility.ai/translate-text"
@@ -3185,32 +3185,11 @@
     "url": "https://x402.agentutility.ai/trip-readiness-brief"
   },
   {
-    "slug": "tweet-search",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Searches recent public X posts with author expansion and public metrics.",
-    "url": "https://x402.agentutility.ai/tweet-search"
-  },
-  {
     "slug": "tweets",
     "price": "0.01",
     "category": "uncategorized",
     "description": "Looks up X posts in bulk by ID with the read-only X API v2, using the exact buyer slug seen in market demand.",
     "url": "https://x402.agentutility.ai/tweets"
-  },
-  {
-    "slug": "tweets-search",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Searches recent public X posts and returns post text, timestamps, metrics, and expanded author profile data.",
-    "url": "https://x402.agentutility.ai/tweets-search"
-  },
-  {
-    "slug": "twitter-search",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Searches recent public posts on X, excluding retweets by default and returning author profile fields and public metrics.",
-    "url": "https://x402.agentutility.ai/twitter-search"
   },
   {
     "slug": "twitter-sentiment",
@@ -3529,14 +3508,14 @@
   },
   {
     "slug": "whois",
-    "price": "0.02",
+    "price": "0.005",
     "category": "utilities",
     "description": "Looks up a domain's WHOIS/RDAP registration record: age, expiry, registrar, and nameservers.",
     "url": "https://x402.agentutility.ai/whois"
   },
   {
     "slug": "whois-lookup",
-    "price": "0.02",
+    "price": "0.005",
     "category": "utilities",
     "description": "Looks up WHOIS registration data for a domain via the IANA-mandated RDAP endpoint for its TLD.",
     "url": "https://x402.agentutility.ai/whois-lookup"
@@ -3627,7 +3606,7 @@
   },
   {
     "slug": "x-search",
-    "price": "0.01",
+    "price": "0.006",
     "category": "uncategorized",
     "description": "Searches recent public X posts, wrapping the read-only X API v2 recent-search route.",
     "url": "https://x402.agentutility.ai/x-search"

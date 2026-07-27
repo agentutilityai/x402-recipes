@@ -53,7 +53,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`text-to-speech`](https://x402.agentutility.ai/text-to-speech) | $0.05 | Converts text to speech with 30+ voices and 5 audio formats. |
 | [`transcribe`](https://x402.agentutility.ai/transcribe) | $0.10 | Convert spoken audio or video into text. |
 | [`translate`](https://x402.agentutility.ai/translate) | $0.002 | Translate text between languages with native-sounding output instead of literal word-for-word conversion. |
-| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.01 | Translate text into another language with native-level fluency. |
+| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.002 | Translate text into another language with native-level fluency. |
 | [`upscale-image`](https://x402.agentutility.ai/upscale-image) | $0.02 | Upscales images 2x or 4x with AI super-resolution, best for photos and illustrations. |
 | [`video-summarize`](https://x402.agentutility.ai/video-summarize) | $0.10 | Summarizes videos, podcasts, and lectures in one call: Whisper v3 transcribes, then Mistral summarizes. 5 styles (tldr, bullets, paragraph, executive, chapters); returns summary + transcript; 60 min max. |
 | [`video-to-text`](https://x402.agentutility.ai/video-to-text) | $0.10 | Transcribe any video URL to text with Whisper v3 large. |
@@ -478,10 +478,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`travel-brief`](https://x402.agentutility.ai/travel-brief) | $0.05 | Pre-trip brief for a destination city: current weather, an fx rate from the traveler's home currency, and survival phrases translated into the destination language, plus an optional postcard illustration. |
 | [`trip-conditions-pack`](https://x402.agentutility.ai/trip-conditions-pack) | $0.03 | Briefs a trip stop for any coordinates in one call: weather, air quality, sunrise/sunset, and timezone. |
 | [`trip-readiness-brief`](https://x402.agentutility.ai/trip-readiness-brief) | $0.06 | Cross-border trip readiness for a route and date: the pre-travel check, visa and weather brief, and international travel readiness pack a booking agent runs before confirming an itinerary. |
-| [`tweet-search`](https://x402.agentutility.ai/tweet-search) | $0.01 | Searches recent public X posts with author expansion and public metrics. |
 | [`tweets`](https://x402.agentutility.ai/tweets) | $0.01 | Looks up X posts in bulk by ID with the read-only X API v2, using the exact buyer slug seen in market demand. |
-| [`tweets-search`](https://x402.agentutility.ai/tweets-search) | $0.01 | Searches recent public X posts and returns post text, timestamps, metrics, and expanded author profile data. |
-| [`twitter-search`](https://x402.agentutility.ai/twitter-search) | $0.01 | Searches recent public posts on X, excluding retweets by default and returning author profile fields and public metrics. |
 | [`twitter-sentiment`](https://x402.agentutility.ai/twitter-sentiment) | $0.03 | Searches recent public X posts for a query and scores each tweet's sentiment, returning tweet-level scores plus aggregate positive/neutral/negative distribution and average score. |
 | [`twitter-user-lookup`](https://x402.agentutility.ai/twitter-user-lookup) | $0.005 | Resolves a Twitter or X username to a public profile with a read-only X API v2 lookup; no account mutation. |
 | [`twitter-x-api`](https://x402.agentutility.ai/twitter-x-api) | $0.01 | Read-only X API v2 wrapper for tweet search, tweet lookup, username lookup, bulk users lookup, and user timeline fetch. |
@@ -527,7 +524,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`x-account-slop-check`](https://x402.agentutility.ai/x-account-slop-check) | $0.05 | Account slop-check API: send an X/Twitter handle and get back how much of that account's recent output reads as AI-generated. |
 | [`x-handle-availability`](https://x402.agentutility.ai/x-handle-availability) | $0.005 | Checks whether an X handle is available, using a read-only X API v2 user-by-username check. |
 | [`x-kol-sentiment`](https://x402.agentutility.ai/x-kol-sentiment) | $0.05 | KOL sentiment API: send a topic and get back a follower-weighted sentiment read across recent X/Twitter posts from accounts big enough to move opinion, not noise accounts. |
-| [`x-search`](https://x402.agentutility.ai/x-search) | $0.01 | Searches recent public X posts, wrapping the read-only X API v2 recent-search route. |
+| [`x-search`](https://x402.agentutility.ai/x-search) | $0.006 | Searches recent public X posts, wrapping the read-only X API v2 recent-search route. |
 | [`x-topic-pulse`](https://x402.agentutility.ai/x-topic-pulse) | $0.05 | Takes the pulse of a topic on X (Twitter): tweet search, sentiment, and top voices in one call. |
 | [`x-username`](https://x402.agentutility.ai/x-username) | $0.005 | Looks up a public X profile by username, wrapping the read-only X API v2 user-by-username route. |
 | [`xbrl-financials`](https://x402.agentutility.ai/xbrl-financials) | $0.05 | Pulls company fundamentals as structured time-series straight from SEC XBRL filings. |
@@ -565,7 +562,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`subdomain-enum`](https://x402.agentutility.ai/subdomain-enum) | $0.03 | Enumerates a domain's subdomains by mining Certificate Transparency logs (crt.sh). |
 | [`tech-stack-detect`](https://x402.agentutility.ai/tech-stack-detect) | $0.01 | Tech stack detector. |
 | [`webpage-diff`](https://x402.agentutility.ai/webpage-diff) | $0.04 | Detects changes on a webpage: fetches a URL, strips HTML to plain text, computes a SHA-256 hash, and (when given a previous hash or text) returns a changed flag plus added/removed line lists. |
-| [`whois`](https://x402.agentutility.ai/whois) | $0.02 | Looks up a domain's WHOIS/RDAP registration record: age, expiry, registrar, and nameservers. |
-| [`whois-lookup`](https://x402.agentutility.ai/whois-lookup) | $0.02 | Looks up WHOIS registration data for a domain via the IANA-mandated RDAP endpoint for its TLD. |
+| [`whois`](https://x402.agentutility.ai/whois) | $0.005 | Looks up a domain's WHOIS/RDAP registration record: age, expiry, registrar, and nameservers. |
+| [`whois-lookup`](https://x402.agentutility.ai/whois-lookup) | $0.005 | Looks up WHOIS registration data for a domain via the IANA-mandated RDAP endpoint for its TLD. |
 
 For runnable, commented examples, see the curated recipes in this repo. For the full portfolio site, see https://agentutility.ai.
