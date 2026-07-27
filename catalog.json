@@ -563,7 +563,7 @@
     "slug": "content-authenticity-report",
     "price": "0.06",
     "category": "uncategorized",
-    "description": "Content authenticity report: send a URL (or raw text) and find out whether a page is AI-generated slop before your agent cites, summarizes, or acts on it.",
+    "description": "Check whether a page is AI-generated slop before your agent cites or acts on it.",
     "url": "https://x402.agentutility.ai/content-authenticity-report"
   },
   {
@@ -2677,7 +2677,7 @@
     "slug": "slop-filtered-brief",
     "price": "0.06",
     "category": "uncategorized",
-    "description": "Research a topic without the AI-generated slop.",
+    "description": "Research a topic without AI-generated slop.",
     "url": "https://x402.agentutility.ai/slop-filtered-brief"
   },
   {
