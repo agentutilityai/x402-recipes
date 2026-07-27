@@ -2562,25 +2562,11 @@
     "url": "https://x402.agentutility.ai/screenshot"
   },
   {
-    "slug": "search",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Returns ranked Decodo Google web results.",
-    "url": "https://x402.agentutility.ai/search"
-  },
-  {
     "slug": "search-content",
     "price": "0.05",
     "category": "uncategorized",
     "description": "Search-with-contents API: send a query and get back ranked web results with each page's cleaned text already attached, instead of a link list you have to fetch yourself.",
     "url": "https://x402.agentutility.ai/search-content"
-  },
-  {
-    "slug": "search-web",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Run a Decodo Google web search and get ranked results with no LLM summary.",
-    "url": "https://x402.agentutility.ai/search-web"
   },
   {
     "slug": "sec-filing",
@@ -2623,13 +2609,6 @@
     "category": "uncategorized",
     "description": "Audits a page's on-page SEO in one call: head metadata, link profile, and keyword ideas.",
     "url": "https://x402.agentutility.ai/seo-snapshot"
-  },
-  {
-    "slug": "serp-search",
-    "price": "0.01",
-    "category": "uncategorized",
-    "description": "Pull ranked Decodo Google results for any query.",
-    "url": "https://x402.agentutility.ai/serp-search"
   },
   {
     "slug": "settlement-gen",
