@@ -1424,7 +1424,7 @@
     "slug": "image-generate",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Generate an image from text in under 5 seconds.",
+    "description": "Generate an SFW text-to-image asset from a prompt, with optional dimensions, style tier, model controls, and seed.",
     "url": "https://x402.agentutility.ai/image-generate"
   },
   {

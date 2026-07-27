@@ -274,7 +274,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`image-caption-localize`](https://x402.agentutility.ai/image-caption-localize) | $0.04 | Captions an image and translates the caption into any of 100+ languages in one call. |
 | [`image-edit`](https://x402.agentutility.ai/image-edit) | $0.02 | Edits an image from a plain-text instruction, mask-free: describe the change and the model applies it to the whole image. |
 | [`image-format-convert`](https://x402.agentutility.ai/image-format-convert) | $0.01 | Image converter. |
-| [`image-generate`](https://x402.agentutility.ai/image-generate) | $0.01 | Generate an image from text in under 5 seconds. |
+| [`image-generate`](https://x402.agentutility.ai/image-generate) | $0.01 | Generate an SFW text-to-image asset from a prompt, with optional dimensions, style tier, model controls, and seed. |
 | [`image-generate-localize`](https://x402.agentutility.ai/image-generate-localize) | $0.04 | Generates an image from a text prompt and returns a localized caption to go with it in one call. |
 | [`image-generate-pro`](https://x402.agentutility.ai/image-generate-pro) | $0.06 | Premium text-to-image generation across margin-safe Venice models at a competitive $0.06/call. |
 | [`image-generate-ultra`](https://x402.agentutility.ai/image-generate-ultra) | $0.22 | Flagship text-to-image generation for top proprietary Venice models that fit a $0.22 retail price. |
