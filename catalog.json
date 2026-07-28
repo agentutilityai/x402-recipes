@@ -1891,9 +1891,9 @@
   },
   {
     "slug": "music-generate",
-    "price": "0.05",
+    "price": "0.08",
     "category": "uncategorized",
-    "description": "Generates music from a text prompt via Venice using the minimax-music-v26 model.",
+    "description": "Generates music from a text prompt via Venice using ACE-Step 1.5.",
     "url": "https://x402.agentutility.ai/music-generate"
   },
   {

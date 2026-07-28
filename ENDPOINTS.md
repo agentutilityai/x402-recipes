@@ -334,7 +334,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`mortgage-payment-calculator`](https://x402.agentutility.ai/mortgage-payment-calculator) | $0.01 | Calculates a full monthly mortgage payment including principal, interest, taxes, insurance, HOA, and PMI. |
 | [`movie-database`](https://x402.agentutility.ai/movie-database) | $0.01 | Finds movies or TV shows by title, with optional year and region, and returns release year, poster, overview, and language. |
 | [`multilingual-doc-brief`](https://x402.agentutility.ai/multilingual-doc-brief) | $0.06 | Turn a foreign-language document into a plain-English brief in one call: send a PDF and get back extracted text, the detected source language, an English (or target-language) translation, a summary, and a PII risk flag. |
-| [`music-generate`](https://x402.agentutility.ai/music-generate) | $0.05 | Generates music from a text prompt via Venice using the minimax-music-v26 model. |
+| [`music-generate`](https://x402.agentutility.ai/music-generate) | $0.08 | Generates music from a text prompt via Venice using ACE-Step 1.5. |
 | [`name-gen`](https://x402.agentutility.ai/name-gen) | $0.005 | Generates original fantasy names for RPG characters and NPCs, optionally flavored by race (Dwarf, Elf, Half-Orc, etc.). |
 | [`naming-pack`](https://x402.agentutility.ai/naming-pack) | $0.06 | Runs a full startup naming workflow in one call: generates brandable candidates, then checks domains, brand score, and social handles. |
 | [`ncbi-taxonomy-lookup`](https://x402.agentutility.ai/ncbi-taxonomy-lookup) | $0.01 | Taxonomy lookup for resolving a common or scientific organism name into its NCBI TaxID, rank, and full ancestor lineage. |
