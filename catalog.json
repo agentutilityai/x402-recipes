@@ -1589,6 +1589,20 @@
     "url": "https://x402.agentutility.ai/keyword-suggest"
   },
   {
+    "slug": "kimi-k3-agent-plan",
+    "price": "0.08",
+    "category": "uncategorized",
+    "description": "Turn a goal into an execution-ready structured agent plan using Venice's exact Kimi K3 model.",
+    "url": "https://x402.agentutility.ai/kimi-k3-agent-plan"
+  },
+  {
+    "slug": "kimi-k3-chat",
+    "price": "0.05",
+    "category": "uncategorized",
+    "description": "Call Venice's Kimi K3 model through a flat-price x402 endpoint with no Venice account or API key.",
+    "url": "https://x402.agentutility.ai/kimi-k3-chat"
+  },
+  {
     "slug": "lead-enrich",
     "price": "0.01",
     "category": "uncategorized",
@@ -3146,14 +3160,14 @@
     "slug": "translate",
     "price": "0.002",
     "category": "ai",
-    "description": "Translate text between languages with native-sounding output instead of literal word-for-word conversion.",
+    "description": "Fast machine translation API for agents.",
     "url": "https://x402.agentutility.ai/translate"
   },
   {
     "slug": "translate-text",
     "price": "0.002",
     "category": "ai",
-    "description": "Translate text into another language with native-level fluency.",
+    "description": "Fast machine translation API for agents.",
     "url": "https://x402.agentutility.ai/translate-text"
   },
   {
@@ -3475,7 +3489,7 @@
     "slug": "web-search",
     "price": "0.006",
     "category": "uncategorized",
-    "description": "Ranked Google results for a query: title, URL, snippet, domain, and a recency filter, via Decodo Google Search.",
+    "description": "Web search API for advanced agent web investigation and RAG source discovery.",
     "url": "https://x402.agentutility.ai/web-search"
   },
   {
@@ -3510,14 +3524,14 @@
     "slug": "whois",
     "price": "0.005",
     "category": "utilities",
-    "description": "Looks up a domain's WHOIS/RDAP registration record: age, expiry, registrar, and nameservers.",
+    "description": "WHOIS API for agents, backed by the IANA-mandated RDAP endpoint.",
     "url": "https://x402.agentutility.ai/whois"
   },
   {
     "slug": "whois-lookup",
     "price": "0.005",
     "category": "utilities",
-    "description": "Looks up WHOIS registration data for a domain via the IANA-mandated RDAP endpoint for its TLD.",
+    "description": "WHOIS API and RDAP domain lookup for agents.",
     "url": "https://x402.agentutility.ai/whois-lookup"
   },
   {
@@ -3608,7 +3622,7 @@
     "slug": "x-search",
     "price": "0.006",
     "category": "uncategorized",
-    "description": "Searches recent public X posts, wrapping the read-only X API v2 recent-search route.",
+    "description": "X search API for recent public posts.",
     "url": "https://x402.agentutility.ai/x-search"
   },
   {

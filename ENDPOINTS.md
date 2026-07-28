@@ -52,8 +52,8 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`summarize-text`](https://x402.agentutility.ai/summarize-text) | $0.01 | Condense long text into a shorter summary. |
 | [`text-to-speech`](https://x402.agentutility.ai/text-to-speech) | $0.05 | Converts text to speech with 30+ voices and 5 audio formats. |
 | [`transcribe`](https://x402.agentutility.ai/transcribe) | $0.10 | Convert spoken audio or video into text. |
-| [`translate`](https://x402.agentutility.ai/translate) | $0.002 | Translate text between languages with native-sounding output instead of literal word-for-word conversion. |
-| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.002 | Translate text into another language with native-level fluency. |
+| [`translate`](https://x402.agentutility.ai/translate) | $0.002 | Fast machine translation API for agents. |
+| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.002 | Fast machine translation API for agents. |
 | [`upscale-image`](https://x402.agentutility.ai/upscale-image) | $0.02 | Upscales images 2x or 4x with AI super-resolution, best for photos and illustrations. |
 | [`video-summarize`](https://x402.agentutility.ai/video-summarize) | $0.10 | Summarizes videos, podcasts, and lectures in one call: Whisper v3 transcribes, then Mistral summarizes. 5 styles (tldr, bullets, paragraph, executive, chapters); returns summary + transcript; 60 min max. |
 | [`video-to-text`](https://x402.agentutility.ai/video-to-text) | $0.10 | Transcribe any video URL to text with Whisper v3 large. |
@@ -294,6 +294,8 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`json-yaml`](https://x402.agentutility.ai/json-yaml) | $0.005 | Converts between JSON and YAML in either direction. |
 | [`kalshi-markets`](https://x402.agentutility.ai/kalshi-markets) | $0.005 | Lists live Kalshi event contract markets from api.elections.kalshi.com, with filters for status, series ticker, event ticker, free-text query, and minimum volume. |
 | [`keyword-suggest`](https://x402.agentutility.ai/keyword-suggest) | $0.002 | Keyword and autocomplete suggestions for any seed query. |
+| [`kimi-k3-agent-plan`](https://x402.agentutility.ai/kimi-k3-agent-plan) | $0.08 | Turn a goal into an execution-ready structured agent plan using Venice's exact Kimi K3 model. |
+| [`kimi-k3-chat`](https://x402.agentutility.ai/kimi-k3-chat) | $0.05 | Call Venice's Kimi K3 model through a flat-price x402 endpoint with no Venice account or API key. |
 | [`lead-enrich`](https://x402.agentutility.ai/lead-enrich) | $0.01 | Enriches a lead from an email, name, domain, or company into a normalized public-data person record. |
 | [`lead-qualify`](https://x402.agentutility.ai/lead-qualify) | $0.06 | Qualifies a lead in one call: email validity, disposable check, person enrichment, and company enrichment. |
 | [`link-extract`](https://x402.agentutility.ai/link-extract) | $0.005 | Extracts every link from a webpage: fetches the HTML URL and returns each <a> link with its anchor text, rel attribute, and an is_external flag. |
@@ -511,7 +513,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`weather-forecast`](https://x402.agentutility.ai/weather-forecast) | $0.002 | Returns current conditions, a 1-7 day daily forecast, and an optional hourly forecast for any latitude/longitude. |
 | [`weather-gen`](https://x402.agentutility.ai/weather-gen) | $0.005 | Rolls a day's weather for a fantasy RPG campaign by climate (temperate, arid, cold, tropical), with conditions and wind. |
 | [`weather-localize-pack`](https://x402.agentutility.ai/weather-localize-pack) | $0.03 | Get current weather for a city and a translated conditions brief in a single call. |
-| [`web-search`](https://x402.agentutility.ai/web-search) | $0.006 | Ranked Google results for a query: title, URL, snippet, domain, and a recency filter, via Decodo Google Search. |
+| [`web-search`](https://x402.agentutility.ai/web-search) | $0.006 | Web search API for advanced agent web investigation and RAG source discovery. |
 | [`webpage-change-report`](https://x402.agentutility.ai/webpage-change-report) | $0.04 | Detects changes to a webpage and explains them in plain language, in one call. |
 | [`website-trust-report`](https://x402.agentutility.ai/website-trust-report) | $0.04 | Gathers site legitimacy signals for a URL in one call: TLS, domain risk, lookalike detection, metadata, and tech stack. |
 | [`wiki-brief`](https://x402.agentutility.ai/wiki-brief) | $0.03 | Looks up a topic on Wikipedia and digests it in one call: canonical article, bullet brief, and named entities. |
@@ -524,7 +526,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`x-account-slop-check`](https://x402.agentutility.ai/x-account-slop-check) | $0.05 | Account slop-check API: send an X/Twitter handle and get back how much of that account's recent output reads as AI-generated. |
 | [`x-handle-availability`](https://x402.agentutility.ai/x-handle-availability) | $0.005 | Checks whether an X handle is available, using a read-only X API v2 user-by-username check. |
 | [`x-kol-sentiment`](https://x402.agentutility.ai/x-kol-sentiment) | $0.05 | KOL sentiment API: send a topic and get back a follower-weighted sentiment read across recent X/Twitter posts from accounts big enough to move opinion, not noise accounts. |
-| [`x-search`](https://x402.agentutility.ai/x-search) | $0.006 | Searches recent public X posts, wrapping the read-only X API v2 recent-search route. |
+| [`x-search`](https://x402.agentutility.ai/x-search) | $0.006 | X search API for recent public posts. |
 | [`x-topic-pulse`](https://x402.agentutility.ai/x-topic-pulse) | $0.05 | Takes the pulse of a topic on X (Twitter): tweet search, sentiment, and top voices in one call. |
 | [`x-username`](https://x402.agentutility.ai/x-username) | $0.005 | Looks up a public X profile by username, wrapping the read-only X API v2 user-by-username route. |
 | [`xbrl-financials`](https://x402.agentutility.ai/xbrl-financials) | $0.05 | Pulls company fundamentals as structured time-series straight from SEC XBRL filings. |
@@ -562,7 +564,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`subdomain-enum`](https://x402.agentutility.ai/subdomain-enum) | $0.03 | Enumerates a domain's subdomains by mining Certificate Transparency logs (crt.sh). |
 | [`tech-stack-detect`](https://x402.agentutility.ai/tech-stack-detect) | $0.01 | Tech stack detector. |
 | [`webpage-diff`](https://x402.agentutility.ai/webpage-diff) | $0.04 | Detects changes on a webpage: fetches a URL, strips HTML to plain text, computes a SHA-256 hash, and (when given a previous hash or text) returns a changed flag plus added/removed line lists. |
-| [`whois`](https://x402.agentutility.ai/whois) | $0.005 | Looks up a domain's WHOIS/RDAP registration record: age, expiry, registrar, and nameservers. |
-| [`whois-lookup`](https://x402.agentutility.ai/whois-lookup) | $0.005 | Looks up WHOIS registration data for a domain via the IANA-mandated RDAP endpoint for its TLD. |
+| [`whois`](https://x402.agentutility.ai/whois) | $0.005 | WHOIS API for agents, backed by the IANA-mandated RDAP endpoint. |
+| [`whois-lookup`](https://x402.agentutility.ai/whois-lookup) | $0.005 | WHOIS API and RDAP domain lookup for agents. |
 
 For runnable, commented examples, see the curated recipes in this repo. For the full portfolio site, see https://agentutility.ai.
