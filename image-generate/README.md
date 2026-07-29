@@ -3,7 +3,7 @@
 **Buyer job:** get an image from a text prompt without hosting a model or
 holding an API key for one.
 
-Calls `POST https://x402.agentutility.ai/image-generate` — 0.01 USDC per
+Calls `POST https://x402.agentutility.ai/image-generate`: 0.01 USDC per
 call. Input is `{ prompt, tier? }`; `tier` picks the model (`fast` default,
 plus `creative`, `anime`, `sd35`).
 
@@ -19,7 +19,7 @@ node index.mjs
 
 ```json
 {
-  "image_url": "https://...permanent fal-hosted PNG URL...",
+  "image_url": "https://...hosted PNG URL...",
   "model": "z-image-turbo",
   "width": "1024",
   "height": "1024",
@@ -32,5 +32,14 @@ node index.mjs
 }
 ```
 
-`image_url` is a permanent, publicly reachable PNG — no follow-up download
-step or expiring signed URL to manage.
+`image_url` is the hosted PNG returned for this generation. Save or copy it
+where your workflow needs it; hosted URLs are provider output, not a storage
+guarantee from this endpoint.
+
+## Repeat-call choices
+
+Start with `tier: "fast"` for drafts and routine prompt iteration. Use
+`creative` when the job is a stylized campaign image, `anime` for illustration,
+and `sd35` when you need a Stable Diffusion-style result. Set `seed` when you
+want to repeat a prompt with the same starting point, then adjust the prompt or
+dimensions deliberately.
