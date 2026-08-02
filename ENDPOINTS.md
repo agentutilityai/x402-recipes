@@ -53,7 +53,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`text-to-speech`](https://x402.agentutility.ai/text-to-speech) | $0.05 | Converts text to speech with 30+ voices and 5 audio formats. |
 | [`transcribe`](https://x402.agentutility.ai/transcribe) | $0.10 | Convert spoken audio or video into text. |
 | [`translate`](https://x402.agentutility.ai/translate) | $0.002 | Fast machine translation API for agents. |
-| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.002 | Fast machine translation API for agents. |
+| [`translate-text`](https://x402.agentutility.ai/translate-text) | $0.002 | Translate agent messages, support replies, and documents without breaking Markdown, code blocks, URLs, or proper nouns. |
 | [`upscale-image`](https://x402.agentutility.ai/upscale-image) | $0.02 | Upscales images 2x or 4x with AI super-resolution, best for photos and illustrations. |
 | [`video-summarize`](https://x402.agentutility.ai/video-summarize) | $0.10 | Summarizes videos, podcasts, and lectures in one call: Whisper v3 transcribes, then Mistral summarizes. 5 styles (tldr, bullets, paragraph, executive, chapters); returns summary + transcript; 60 min max. |
 | [`video-to-text`](https://x402.agentutility.ai/video-to-text) | $0.10 | Transcribe any video URL to text with Whisper v3 large. |

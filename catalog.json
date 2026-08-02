@@ -3167,7 +3167,7 @@
     "slug": "translate-text",
     "price": "0.002",
     "category": "ai",
-    "description": "Fast machine translation API for agents.",
+    "description": "Translate agent messages, support replies, and documents without breaking Markdown, code blocks, URLs, or proper nouns.",
     "url": "https://x402.agentutility.ai/translate-text"
   },
   {

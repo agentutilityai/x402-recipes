@@ -3,7 +3,7 @@
 **Buyer job:** translate a string of text between 100+ languages, with
 source-language auto-detect, without standing up a translation API account.
 
-Calls `POST https://x402.agentutility.ai/translate` — 0.005 USDC per call.
+Calls `POST https://x402.agentutility.ai/translate` — 0.002 USDC per call.
 Input is `{ text, target_language, source_language?, formality? }`; `text`
 and `target_language` are required. Markdown, code blocks, and URLs in the
 input are preserved in the output.
