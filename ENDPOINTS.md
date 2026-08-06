@@ -471,7 +471,7 @@ Every paid endpoint in the agentutility x402 portfolio, generated straight from 
 | [`token-honeypot`](https://x402.agentutility.ai/token-honeypot) | $0.05 | Detects whether an ERC-20 token is a honeypot by simulating a buy + sell via honeypot.is. |
 | [`token-risk-score`](https://x402.agentutility.ai/token-risk-score) | $0.10 | Composite 0-100 security score for any EVM token, built from three independent signals pulled in parallel. |
 | [`token-volatility`](https://x402.agentutility.ai/token-volatility) | $0.005 | Computes historical volatility for any CoinGecko-listed token: log-return standard deviation over the last N days (default 30), annualized by sqrt(365). |
-| [`tool-call-diff`](https://x402.agentutility.ai/tool-call-diff) | $0.008 | Deterministic tool call diff between two agent run sequences. |
+| [`tool-call-diff`](https://x402.agentutility.ai/tool-call-diff) | $0.008 | Compare two agent run sequences and see how their tool calls differ. |
 | [`tool-card-generate`](https://x402.agentutility.ai/tool-card-generate) | $0.005 | Generates an agent tool card from a tool name + plain-English description (and optional parameter hints): a strict OpenAI/A2A-compatible spec of { name, description, parameters: <JSON Schema> }. |
 | [`topic-trend-brief`](https://x402.agentutility.ai/topic-trend-brief) | $0.05 | Topic trend brief API to check whether interest in a topic is rising: send a topic and window, get back Wikipedia pageview trend, recent news mention volume, Hacker News mention volume, and X/Twitter mention volume in one call. |
 | [`trade-finance-risk-score`](https://x402.agentutility.ai/trade-finance-risk-score) | $0.01 | Scores the risk of a trade finance transaction from 0-100. |

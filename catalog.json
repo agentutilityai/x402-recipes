@@ -3118,7 +3118,7 @@
     "slug": "tool-call-diff",
     "price": "0.008",
     "category": "uncategorized",
-    "description": "Deterministic tool call diff between two agent run sequences.",
+    "description": "Compare two agent run sequences and see how their tool calls differ.",
     "url": "https://x402.agentutility.ai/tool-call-diff"
   },
   {
