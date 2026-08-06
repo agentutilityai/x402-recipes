@@ -75,3 +75,30 @@ model family, such as Nano Banana Pro or Grok SOTA. Don't carry a seed across a
 tier change and call it a controlled comparison. Record the endpoint, tier,
 model, canvas, and seed with each selected image, then compare the new baseline
 with the draft it replaced.
+
+## Hand off a selected draft
+
+Once a draft is approved, keep the prompt and canvas in the job record with the
+chosen `image_url`. The next agent can then ask a narrow question: revise the
+same asset, make a new draft, or pay for a premium baseline. That prevents a
+later call from becoming an untraceable fresh prompt.
+
+For a premium baseline, send the selected prompt and dimensions to
+`image-generate-pro` with the model tier that fits the job. Treat that output as
+a new candidate, not a guaranteed refinement of the fast draft. Compare its
+hosted URL, model, and dimensions against the saved draft before replacing the
+asset in the workflow.
+
+```js
+const productionBrief = {
+  endpoint: "image-generate-pro",
+  prompt: approvedDraft.prompt,
+  width: approvedDraft.width,
+  height: approvedDraft.height,
+  tier: "balanced",
+  replaces_image_url: approvedDraft.image_url,
+};
+```
+
+Keep the selected result and its request together. It gives the next paid pass
+a clear starting point and makes the image choice reviewable.
