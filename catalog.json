@@ -1424,7 +1424,7 @@
     "slug": "image-generate",
     "price": "0.01",
     "category": "uncategorized",
-    "description": "Generate an SFW text-to-image asset from a prompt, with optional dimensions, style tier, model controls, and seed.",
+    "description": "Generate an SFW hosted PNG from a text prompt for a repeatable image-production step.",
     "url": "https://x402.agentutility.ai/image-generate"
   },
   {
