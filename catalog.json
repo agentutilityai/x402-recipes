@@ -353,7 +353,7 @@
     "slug": "browser-session",
     "price": "0.03",
     "category": "uncategorized",
-    "description": "Loads a URL in a real headless browser with JavaScript executed, then returns the rendered HTML and page title, or a base64 screenshot.",
+    "description": "Loads a public URL in a real headless browser with JavaScript executed, then returns the rendered HTML and page title, or a base64 screenshot.",
     "url": "https://x402.agentutility.ai/browser-session"
   },
   {
