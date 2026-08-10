@@ -15,6 +15,17 @@ export X402_PRIVATE_KEY=0xYOUR_PRIVATE_KEY_HEX
 node index.mjs
 ```
 
+The script reads the request from environment variables, so a controlled
+follow-up doesn't require editing it. `IMAGE_PROMPT` and `IMAGE_TIER` replace
+the defaults. Set `IMAGE_WIDTH`, `IMAGE_HEIGHT`, and `IMAGE_SEED` to rerun a
+series with the same canvas and starting point.
+
+```bash
+IMAGE_PROMPT="the same red bicycle, now parked outside a corner bakery at dusk" \
+IMAGE_TIER=fast IMAGE_WIDTH=1024 IMAGE_HEIGHT=1024 IMAGE_SEED=184729 \
+node index.mjs
+```
+
 ## Expected output shape
 
 ```json

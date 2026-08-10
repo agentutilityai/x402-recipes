@@ -10,6 +10,7 @@ import { ExactEvmScheme, toClientEvmSigner } from "@x402/evm";
 import { privateKeyToAccount } from "viem/accounts";
 import { createPublicClient, http } from "viem";
 import { base } from "viem/chains";
+import { buildImageRequest } from "./request.mjs";
 
 const account = privateKeyToAccount(process.env.X402_PRIVATE_KEY);
 const signer = toClientEvmSigner(
@@ -22,10 +23,7 @@ const paidFetch = wrapFetchWithPayment(fetch, client);
 const res = await paidFetch("https://x402.agentutility.ai/image-generate", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({
-    prompt: "a red bicycle leaning against a brick wall, morning light",
-    tier: "fast",
-  }),
+  body: JSON.stringify(buildImageRequest()),
 });
 
 const data = await res.json();
