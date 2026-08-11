@@ -13,6 +13,7 @@ export function buildImageRequest(env = process.env) {
   const width = optionalInteger(env.IMAGE_WIDTH, "IMAGE_WIDTH");
   const height = optionalInteger(env.IMAGE_HEIGHT, "IMAGE_HEIGHT");
   const seed = optionalInteger(env.IMAGE_SEED, "IMAGE_SEED");
+  const negativePrompt = env.IMAGE_NEGATIVE_PROMPT?.trim();
 
   return {
     prompt,
@@ -20,5 +21,6 @@ export function buildImageRequest(env = process.env) {
     ...(width === undefined ? {} : { width }),
     ...(height === undefined ? {} : { height }),
     ...(seed === undefined ? {} : { seed }),
+    ...(negativePrompt ? { negative_prompt: negativePrompt } : {}),
   };
 }

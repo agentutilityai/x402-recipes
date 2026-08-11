@@ -18,11 +18,13 @@ node index.mjs
 The script reads the request from environment variables, so a controlled
 follow-up doesn't require editing it. `IMAGE_PROMPT` and `IMAGE_TIER` replace
 the defaults. Set `IMAGE_WIDTH`, `IMAGE_HEIGHT`, and `IMAGE_SEED` to rerun a
-series with the same canvas and starting point.
+series with the same canvas and starting point. Set `IMAGE_NEGATIVE_PROMPT` to
+keep a shared exclusion list on every pass.
 
 ```bash
 IMAGE_PROMPT="the same red bicycle, now parked outside a corner bakery at dusk" \
 IMAGE_TIER=fast IMAGE_WIDTH=1024 IMAGE_HEIGHT=1024 IMAGE_SEED=184729 \
+IMAGE_NEGATIVE_PROMPT="text, watermark, distorted hands" \
 node index.mjs
 ```
 
@@ -55,7 +57,8 @@ and `sd35` when you need a Stable Diffusion-style result. Set `seed` when you
 want to repeat a prompt with the same starting point, then adjust the prompt or
 dimensions deliberately.
 
-For a second pass, keep the returned `seed`, `width`, `height`, and `tier`.
+For a second pass, keep the returned `seed`, `width`, `height`, `tier`, and
+any `negative_prompt` you used.
 Change the part of the prompt you are testing, then send those values again.
 That gives an agent a controlled variation instead of a fresh, unrelated image.
 
@@ -66,6 +69,7 @@ const nextRequest = {
   width: data.width,
   height: data.height,
   seed: data.seed,
+  negative_prompt: "text, watermark, distorted hands",
 };
 ```
 
